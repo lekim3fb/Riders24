@@ -1,4 +1,4 @@
-package dataAccess;
+package dataaccess;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -31,6 +31,7 @@ public class DataAccess {
 	
 	private String adminPass="admin";
 	private static final String MADRID = "Madrid";
+	private static final String DONOSTIA = "Donostia";
 
 	public DataAccess() {
 		if (c.isDatabaseInitialized()) {
@@ -105,11 +106,11 @@ public class DataAccess {
 			cal.set(2024, Calendar.APRIL, 20);
 			Date date4 = UtilDate.trim(cal.getTime());
 
-			driver1.addRide("Donostia", MADRID, date2, 5, 20); //ride1
-			driver1.addRide("Irun", "Donostia", date2, 5, 2); //ride2
-			driver1.addRide(MADRID, "Donostia", date3, 5, 5); //ride3
+			driver1.addRide(DONOSTIA, MADRID, date2, 5, 20); //ride1
+			driver1.addRide("Irun", DONOSTIA, date2, 5, 2); //ride2
+			driver1.addRide(MADRID, DONOSTIA, date3, 5, 5); //ride3
 			driver1.addRide("Barcelona", MADRID, date4, 0, 10); //ride4
-			driver2.addRide("Donostia", "Hondarribi", date1, 5, 3); //ride5
+			driver2.addRide(DONOSTIA, "Hondarribi", date1, 5, 3); //ride5
 
 			Ride ride1 = driver1.getCreatedRides().get(0);
 			Ride ride2 = driver1.getCreatedRides().get(1);
@@ -206,9 +207,7 @@ public class DataAccess {
 		TypedQuery<String> query = db.createQuery("SELECT DISTINCT r.to FROM Ride r WHERE r.from=?1 ORDER BY r.to",
 				String.class);
 		query.setParameter(1, from);
-		List<String> arrivingCities = query.getResultList();
-		return arrivingCities;
-
+		return query.getResultList();
 	}
 
 	/**
@@ -518,10 +517,9 @@ public class DataAccess {
 		}
 	}
 
-	public boolean bookRide(String username, Ride ride, int seats, double desk) {
+	public boolean bookRide(String username, Ride ride, int seats, double desk) { //Euken 
 		try {
 			db.getTransaction().begin();
-
 			Traveler traveler = getTraveler(username);
 			if (traveler == null) {
 				return false;

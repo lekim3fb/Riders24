@@ -117,7 +117,7 @@ public class TestDataAccess {
 			Driver d = db.find(Driver.class, name);
 			if (d!=null) {
 				return d.doesRideExists(from, to, date);
-			} else 
+			} 
 			return false;
 		}
 		public Ride removeRide(String name, String from, String to, Date date ) {
