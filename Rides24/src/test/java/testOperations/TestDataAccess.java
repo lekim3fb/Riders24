@@ -137,4 +137,20 @@ public class TestDataAccess {
 
 
 		
+		public Driver createDriverWithMoney(String name, String pass, double amount) {
+			System.out.println(">> TestDataAccess: addDriver");
+			Driver driver=null;
+				db.getTransaction().begin();
+				try {
+				    driver=new Driver(name,pass);
+				    driver.setMoney(amount);
+					db.persist(driver);
+					db.getTransaction().commit();
+				}
+				catch (Exception e){
+					e.printStackTrace();
+				}
+				return driver;
+	    }
+		
 }
