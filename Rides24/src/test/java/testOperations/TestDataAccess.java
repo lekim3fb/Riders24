@@ -3,6 +3,7 @@ package testOperations;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.ResourceBundle;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -11,6 +12,10 @@ import javax.persistence.Persistence;
 import configuration.ConfigXML;
 import domain.Driver;
 import domain.Ride;
+import domain.Traveler;
+import domain.User;
+import exceptions.RideAlreadyExistException;
+import exceptions.RideMustBeLaterThanTodayException;
 
 
 public class TestDataAccess {
@@ -135,6 +140,61 @@ public class TestDataAccess {
 
 		}
 
-
+		public Traveler addTraveler(String name, String pass) {
+			Traveler t = null;
+			try {
+				t = new Traveler(name, pass);
+				db.getTransaction().begin();
+				db.persist(t);
+				db.getTransaction().commit();
+			} catch(Exception e) {
+				e.printStackTrace();
+			}
+			return t;
+		}
 		
+		public Boolean removeTraveler(String name, String pass) {
+			System.out.println(">> TestDataAccess: removeTraveler");
+			Traveler t = db.find(Traveler.class, name);
+			if(t!=null) {
+				db.getTransaction().begin();
+				db.remove(t);
+				db.getTransaction().commit();
+				return true;
+			}
+			return false;
+		}
+		
+		public Ride createRide(String from, String to, Date date, int nPlaces, float price, String driverName)
+				throws RideAlreadyExistException, RideMustBeLaterThanTodayException {
+			System.out.println(
+					">> DataAccess: createRide=> from= " + from + " to= " + to + " driver=" + driverName + " date " + date);
+			if (driverName==null) return null;
+			try {
+				if (new Date().compareTo(date) > 0) {
+					System.out.println("ppppp");
+					throw new RideMustBeLaterThanTodayException(
+							ResourceBundle.getBundle("Etiquetas").getString("CreateRideGUI.ErrorRideMustBeLaterThanToday"));
+				}
+
+				db.getTransaction().begin();
+				Driver driver = db.find(Driver.class, driverName);
+				if (driver.doesRideExists(from, to, date)) {
+					db.getTransaction().commit();
+					throw new RideAlreadyExistException(
+							ResourceBundle.getBundle("Etiquetas").getString("DataAccess.RideAlreadyExist"));
+				}
+				Ride ride = driver.addRide(from, to, date, nPlaces, price);
+				// next instruction can be obviated
+				db.persist(driver);
+				db.getTransaction().commit();
+
+				return ride;
+			} catch (NullPointerException e) {
+				// TODO Auto-generated catch block
+				return null;
+			}
+			
+
+		}
 }
