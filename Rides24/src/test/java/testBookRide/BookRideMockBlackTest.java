@@ -1,3 +1,4 @@
+package testBookRide;
 import static org.junit.Assert.*;
 import domain.Booking;
 import domain.Ride;
