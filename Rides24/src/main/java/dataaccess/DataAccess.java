@@ -480,28 +480,28 @@ public class DataAccess {
 	public boolean gauzatuEragiketa(String username, double amount, boolean deposit) {
 		try {
 			db.getTransaction().begin();
-			User user = getUser(username);
-			if (user != null) {
-				double currentMoney = user.getMoney();
-				if (deposit) {
-					user.setMoney(currentMoney + amount);
-				} else {
-					if ((currentMoney - amount) < 0)
-						user.setMoney(0);
-					else
-						user.setMoney(currentMoney - amount);
-				}
+			User user = operacionCartera(username, amount, deposit);
 				db.merge(user);
 				db.getTransaction().commit();
 				return true;
-			}
-			db.getTransaction().commit();
-			return false;
 		} catch (Exception e) {
 			e.printStackTrace();
 			db.getTransaction().rollback();
 			return false;
 		}
+	}
+	private User operacionCartera(String username, double amount, boolean deposit) {
+		User user = getUser(username);
+			double currentMoney = user.getMoney();
+			if (deposit) {
+				user.setMoney(currentMoney + amount);
+			} else {
+				if ((currentMoney - amount) < 0)
+					user.setMoney(0);
+				else
+					user.setMoney(currentMoney - amount);
+			}
+		return user;
 	}
 
 	public void addMovement(User user, String eragiketa, double amount) {
