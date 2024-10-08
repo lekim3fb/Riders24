@@ -1,1 +1,9 @@
-domain.Booking#<init>(Ldomain/Ride;LTraveler;I)V
+configuration.UtilDate#newDate(III)Ljava/util/Date;
+a3b3141e54a576785fcf413c15df1dde
+java.util.Calendar#getInstance()Ljava/util/Calendar;
+java.util.TimeZone#getTimeZone(Ljava/lang/String;)Ljava/util/TimeZone;
+java.util.Calendar#set(IIIIII)V
+java.util.Calendar#getTime()Ljava/util/Date;
+==
+setTimeZone java.util.Calendar#setTimeZone(Ljava/util/TimeZone;)V
+set java.util.Calendar#set(II)V

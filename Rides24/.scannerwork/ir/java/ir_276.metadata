@@ -1,1 +1,2 @@
-domain.Ride#instance-init#
+dataaccess.DataAccess#getTraveler(Ljava/lang/String;)LTraveler;
+55f2d55f7a018ff03a251f7c4a9cf1fa

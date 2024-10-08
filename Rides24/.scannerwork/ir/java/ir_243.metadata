@@ -1,1 +1,2 @@
-gui.AdminGUI#getBusinessLogic()LbusinessLogic/BLFacade;
+businesslogic.BLFacadeImplementation#getComplaintsByBook(LBooking;)LComplaint;
+80aece4ced1aa745c91f7badf59aa7de

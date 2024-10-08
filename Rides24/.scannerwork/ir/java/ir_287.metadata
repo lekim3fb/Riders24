@@ -1,1 +1,4 @@
-domain.Ride#setBetMinimum(I)V
+domain.Ride#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IDLDriver;)V
+b2b83927fc5039d3a308f8c5257bee4f
+==
+<init> java.lang.Object#<init>()V

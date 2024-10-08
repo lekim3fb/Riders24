@@ -1,1 +1,2 @@
-gui.ErreklamazioakGUI#getBusinessLogic()LBLFacade;
+domain.Booking#getSeats()I
+ea25d617d8e923633b38be3581595bb9

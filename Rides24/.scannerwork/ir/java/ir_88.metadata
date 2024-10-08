@@ -1,4 +1,2 @@
-domain.Driver#addCar(Ldomain/Car;)V
-==
-add java.util.List#add(Ljava/lang/Object;)Z
-setDriver domain.Car#setDriver(Ldomain/Driver;)V
+domain.User#setMoney(D)V
+30d9d34e66de49d34f10833c6abe6c6d

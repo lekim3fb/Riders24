@@ -1,1 +1,2 @@
-configuration.ConfigXML#getBusinessLogicNode()Ljava/lang/String;
+gui.MoneyGUI#setBussinessLogic(LBLFacade;)V
+bdd20f25d812a770e4c49697b9f07844

@@ -1,1 +1,2 @@
-domain.Admin2#setMota(Ljava/lang/String;)V
+configuration.ConfigXML#getBusinessLogicName()Ljava/lang/String;
+cd910ea81dc744b2990bab59ed143933

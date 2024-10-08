@@ -1,15 +1,9 @@
 
-0domain.Movement#getEragiketa()Ljava/lang/String;\
-RC:/Users/saeze/Downloads/Rides24Complete-master/src/main/java/domain/Movement.java& &("1*Ÿ
-1' '(j
-h
-' '(
-%0java.lang.String"__id*>
-
-__unknown_file ("* 
-domain.Movement"
-	eragiketa"$
-' '(
-
-%0java.lang.StringB
-domain.MovementH
+domain.Ride#isActive()ZS
+GC:/Users/mikel/git/Riders24Euken/Rides24/src/main/java/domain/Ride.java· ·("1*%
+1
+¸	 ¸("
+
+¸ ¸(
+""B
+domain.RideHX

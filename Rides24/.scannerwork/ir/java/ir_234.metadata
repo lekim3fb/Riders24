@@ -1,5 +1,2 @@
-businessLogic.BLFacadeImplementation#getAlert(I)LAlert;
-==
-getAlert dataAccess.DataAccess#getAlert(I)LAlert;
-close dataAccess.DataAccess#close()V
-open dataAccess.DataAccess#open()V
+businesslogic.BLFacadeImplementation#deleteCar(Ldomain/Car;)V
+03f1241a58586980ae6ee330a0e09c3a

@@ -1,15 +1,15 @@
 
-3configuration.ConfigXML#getUser()Ljava/lang/String;d
-ZC:/Users/saeze/Downloads/Rides24Complete-master/src/main/java/configuration/ConfigXML.java9 9("1*¢
-1:	 :(m
-k
-:	 :(
-%0java.lang.String"__id*A
+)domain.Admin2#getMota()Ljava/lang/String;S
+IC:/Users/mikel/git/Riders24Euken/Rides24/src/main/java/domain/Admin2.java< <("1*˜
+1=	 =(c
+a
+=	 =(
+%0java.lang.String"__id*7
 
-__unknown_file (%*#
-configuration.ConfigXML"
-user"$
-: :(
+__unknown_file (*
+domain.Admin2"
+mota"$
+= =(
 
-%0java.lang.StringB
-configuration.ConfigXMLH
+%0java.lang.StringB
+domain.Admin2H

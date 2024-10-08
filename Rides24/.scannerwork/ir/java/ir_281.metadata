@@ -1,1 +1,2 @@
-domain.Ride#setFrom(Ljava/lang/String;)V
+dataaccess.DataAccess#isAdded(Ljava/lang/String;Ljava/lang/String;)Z
+6bf2f322f73e4d9b96a3f48e9cc7560d

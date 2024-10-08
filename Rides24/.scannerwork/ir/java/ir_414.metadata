@@ -1,1 +1,2 @@
-gui.AlertaSortuGUI#setBussinessLogic(LBLFacade;)V
+configuration.ConfigXML#getDatabaseNode()Ljava/lang/String;
+e5a4dd197d63f72185d43f8843afed82

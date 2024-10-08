@@ -1,1 +1,2 @@
-dataAccess.DataAccess#getActualMoney(Ljava/lang/String;)D
+gui.BookGUI#getBusinessLogic()LBLFacade;
+93eddea49073c10c3ad5bc377fb7f381

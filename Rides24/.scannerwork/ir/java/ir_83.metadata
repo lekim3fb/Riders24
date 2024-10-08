@@ -1,3 +1,2 @@
-domain.Driver#<init>(Ljava/lang/String;Ljava/lang/String;)V
-==
-<init> domain.User#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+domain.User#getPassword()Ljava/lang/String;
+0c1b172ae72fbbba036f2d24134661ec

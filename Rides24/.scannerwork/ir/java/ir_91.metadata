@@ -1,3 +1,2 @@
-domain.Driver#equals(Ljava/lang/Object;)Z
-==
-equals domain.User#equals(Ljava/lang/Object;)Z
+domain.User#getIzoztatutakoDirua()D
+fb3a0f64791590cf966dc8cc26cc868e

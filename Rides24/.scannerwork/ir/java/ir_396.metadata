@@ -1,1 +1,2 @@
-configuration.ConfigXML#getInstance()Lconfiguration/ConfigXML;
+gui.MoneyGUI#getBusinessLogic()LBLFacade;
+ef7c9af3b3a46eff541458f1cb9ad422

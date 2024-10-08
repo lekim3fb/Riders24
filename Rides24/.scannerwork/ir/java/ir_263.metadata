@@ -1,1 +1,3 @@
-domain.Movement#<init>(Ldomain/User;Ljava/lang/String;D)V
+dataaccess.DataAccess#instance-init#
+4b688b917d78f640a799763dce997a51
+configuration.ConfigXML#getInstance()Lconfiguration/ConfigXML;

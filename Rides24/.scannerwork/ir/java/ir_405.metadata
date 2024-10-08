@@ -1,1 +1,2 @@
-domain.Admin2#getUsername()Ljava/lang/String;
+configuration.ConfigXML#isDatabaseLocal()Z
+b676ea174f06b1d24f5b51625961fba5

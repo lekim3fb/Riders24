@@ -1,1 +1,2 @@
-domain.Discount#setKodea(Ljava/lang/String;)V
+gui.ErreserbaOnartuGUI#setBussinessLogic(LBLFacade;)V
+603623efd21ac4782fd76bf668a3988e

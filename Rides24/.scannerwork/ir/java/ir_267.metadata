@@ -1,1 +1,2 @@
-domain.Movement#getEragiketa()Ljava/lang/String;
+dataaccess.DataAccess#getArrivalCities(Ljava/lang/String;)Ljava/util/List;
+398d4e6a43e80f0a5148f1e164db0334

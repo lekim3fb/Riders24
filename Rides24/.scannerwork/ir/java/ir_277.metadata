@@ -1,3 +1,5 @@
-domain.Ride#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IDLDriver;)V
+dataaccess.DataAccess#getMotabyUsername(Ljava/lang/String;)Ljava/lang/String;
+bcd8c9c8f28de88a7fbd362fdc0c5550
 ==
-<init> java.lang.Object#<init>()V
+isEmpty java.util.List#isEmpty()Z
+get java.util.List#get(I)Ljava/lang/Object;

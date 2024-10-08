@@ -1,1 +1,2 @@
-gui.BookGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
+gui.EzabatuGUI#setBussinessLogic(LBLFacade;)V
+b642ea5fe60ad523e74ed51f33b05017

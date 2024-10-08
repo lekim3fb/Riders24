@@ -1,1 +1,2 @@
-dataAccess.DataAccess#getPastBookedRides(Ljava/lang/String;)Ljava/util/List;
+domain.Traveler#getBookedRides()Ljava/util/List;
+4b39ba1ea58baad625489c671a9af3fc

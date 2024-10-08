@@ -1,1 +1,2 @@
-domain.Admin2#setUsername(Ljava/lang/String;)V
+configuration.ConfigXML#isBusinessLogicLocal()Z
+a9fa739ac79be4d2ec13550e43124399

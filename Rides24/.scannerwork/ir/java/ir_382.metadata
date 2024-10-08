@@ -1,9 +1,2 @@
-gui.MoneyGUI#instance-init#
-javax.swing.JTextField#instance-init#
-javax.swing.JTextField#<init>()V
-java.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;
-javax.swing.JLabel#instance-init#
-java.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;
-javax.swing.JButton#<init>(Ljava/lang/String;)V
-javax.swing.JLabel#<init>()V
-javax.swing.JButton#instance-init#
+domain.Complaint#setNor(Ljava/lang/String;)V
+448918e7ba048a3ae9b1a367b0247651

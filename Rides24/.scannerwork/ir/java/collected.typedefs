@@ -1,74 +1,32 @@
-ı
-dataAccess.DataAccess)
-<init>dataAccess.DataAccess#<init>()VG
-addCar=dataAccess.DataAccess#addCar(Ljava/lang/String;Ldomain/Car;)ZS
-	addDriverFdataAccess.DataAccess#addDriver(Ljava/lang/String;Ljava/lang/String;)ZS
-addMovementDdataAccess.DataAccess#addMovement(Ldomain/User;Ljava/lang/String;D)VW
-addTravelerHdataAccess.DataAccess#addTraveler(Ljava/lang/String;Ljava/lang/String;)Z'
-closedataAccess.DataAccess#close()VJ
-createDiscount8dataAccess.DataAccess#createDiscount(Ldomain/Discount;)V4
-deleteAlert%dataAccess.DataAccess#deleteAlert(I)Z;
-	deleteCar.dataAccess.DataAccess#deleteCar(Ldomain/Car;)VJ
-deleteDiscount8dataAccess.DataAccess#deleteDiscount(Ldomain/Discount;)V>
-
-deleteUser0dataAccess.DataAccess#deleteUser(Ldomain/User;)VQ
-gauzatuEragiketa=dataAccess.DataAccess#gauzatuEragiketa(Ljava/lang/String;DZ)ZK
-getActualMoney9dataAccess.DataAccess#getActualMoney(Ljava/lang/String;)DJ
-getAllDiscounts7dataAccess.DataAccess#getAllDiscounts()Ljava/util/List;W
-getAllMovementsDdataAccess.DataAccess#getAllMovements(Ldomain/User;)Ljava/util/List;^
-getArrivalCitiesJdataAccess.DataAccess#getArrivalCities(Ljava/lang/String;)Ljava/util/List;J
-getDepartCities7dataAccess.DataAccess#getDepartCities()Ljava/util/List;U
-getDiscountFdataAccess.DataAccess#getDiscount(Ljava/lang/String;)Ldomain/Discount;O
-	getDriverBdataAccess.DataAccess#getDriver(Ljava/lang/String;)Ldomain/Driver;`
-getKotxeByMatrikulaIdataAccess.DataAccess#getKotxeByMatrikula(Ljava/lang/String;)Ldomain/Car;b
-getMotabyUsernameMdataAccess.DataAccess#getMotabyUsername(Ljava/lang/String;)Ljava/lang/String;î
-getThisMonthDatesWithRidesvdataAccess.DataAccess#getThisMonthDatesWithRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;U
-getTravelerFdataAccess.DataAccess#getTraveler(Ljava/lang/String;)Ldomain/Traveler;I
-getUser>dataAccess.DataAccess#getUser(Ljava/lang/String;)Ldomain/User;B
-getUserList3dataAccess.DataAccess#getUserList()Ljava/util/List;5
-initializeDB%dataAccess.DataAccess#initializeDB()VO
-isAddedDdataAccess.DataAccess#isAdded(Ljava/lang/String;Ljava/lang/String;)ZY
-isRegisteredIdataAccess.DataAccess#isRegistered(Ljava/lang/String;Ljava/lang/String;)Z%
-opendataAccess.DataAccess#open()VY
-updateAlertaAurkituak@dataAccess.DataAccess#updateAlertaAurkituak(Ljava/lang/String;)ZJ
-updateDiscount8dataAccess.DataAccess#updateDiscount(Ldomain/Discount;)VD
-updateDriver4dataAccess.DataAccess#updateDriver(Ldomain/Driver;)VJ
-updateTraveler8dataAccess.DataAccess#updateTraveler(Ldomain/Traveler;)V>
-
-updateUser0dataAccess.DataAccess#updateUser(Ldomain/User;)Vjava.lang.Object ´
+Ü
 gui.CreateRideGUI7
 <init>-gui.CreateRideGUI#<init>(Ljava/lang/String;)VB
-field_Errors2gui.CreateRideGUI#field_Errors()Ljava/lang/String;P
-getBusinessLogic<gui.CreateRideGUI#getBusinessLogic()LbusinessLogic/BLFacade;m
+field_Errors2gui.CreateRideGUI#field_Errors()Ljava/lang/String;m
 jButtonClose_actionPerformedMgui.CreateRideGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)Vo
-jButtonCreate_actionPerformedNgui.CreateRideGUI#jButtonCreate_actionPerformed(Ljava/awt/event/ActionEvent;)VS
-setBussinessLogic>gui.CreateRideGUI#setBussinessLogic(LbusinessLogic/BLFacade;)Vjavax.swing.JFrameÍ
+jButtonCreate_actionPerformedNgui.CreateRideGUI#jButtonCreate_actionPerformed(Ljava/awt/event/ActionEvent;)Vjavax.swing.JFrame Í
 domain.IntegerAdapter)
 <init>domain.IntegerAdapter#<init>()VO
 marshalDdomain.IntegerAdapter#marshal(Ljava/lang/Integer;)Ljava/lang/String;S
-	unmarshalFdomain.IntegerAdapter#unmarshal(Ljava/lang/String;)Ljava/lang/Integer; “
+	unmarshalFdomain.IntegerAdapter#unmarshal(Ljava/lang/String;)Ljava/lang/Integer; ∑
 gui.BookGUI1
-<init>'gui.BookGUI#<init>(Ljava/lang/String;)VJ
-getBusinessLogic6gui.BookGUI#getBusinessLogic()LbusinessLogic/BLFacade;_
-jButton2_actionPerformedCgui.BookGUI#jButton2_actionPerformed(Ljava/awt/event/ActionEvent;)VM
-setBussinessLogic8gui.BookGUI#setBussinessLogic(LbusinessLogic/BLFacade;)Vjavax.swing.JFrame *
-businessLogic.BLFacadejava.lang.Objectπ
+<init>'gui.BookGUI#<init>(Ljava/lang/String;)V_
+jButton2_actionPerformedCgui.BookGUI#jButton2_actionPerformed(Ljava/awt/event/ActionEvent;)Vjavax.swing.JFrame π
 domain.TravelerG
 <init>=domain.Traveler#<init>(Ljava/lang/String;Ljava/lang/String;)V8
-toString,domain.Traveler#toString()Ljava/lang/String;java.io.Serializabledomain.User ˜
+toString,domain.Traveler#toString()Ljava/lang/String;java.io.Serializabledomain.User ¸
 testOperations.TestDataAccess1
 <init>'testOperations.TestDataAccess#<init>()Vû
 addDriverWithRideàtestOperations.TestDataAccess#addDriverWithRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IF)Ldomain/Driver;/
 close&testOperations.TestDataAccess#close()Vo
-createDriver_testOperations.TestDataAccess#createDriver(Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;M
+createDriver_testOperations.TestDataAccess#createDriver(Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;Ç
+createDriverWithMoneyitestOperations.TestDataAccess#createDriverWithMoney(Ljava/lang/String;Ljava/lang/String;D)Ldomain/Driver;M
 existDriver>testOperations.TestDataAccess#existDriver(Ljava/lang/String;)Z}
 	existRideptestOperations.TestDataAccess#existRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Z-
 open%testOperations.TestDataAccess#open()VO
-removeDriver?testOperations.TestDataAccess#removeDriver(Ljava/lang/String;)Zjava.lang.Object Ü
+removeDriver?testOperations.TestDataAccess#removeDriver(Ljava/lang/String;)Zjava.lang.Object ∂
 gui.EzabatuGUI"
 <init>gui.EzabatuGUI#<init>()Vj
-jButtonClose_actionPerformedJgui.EzabatuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)VP
-setBussinessLogic;gui.EzabatuGUI#setBussinessLogic(LbusinessLogic/BLFacade;)Vjavax.swing.JFrameâ
+jButtonClose_actionPerformedJgui.EzabatuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)Vjavax.swing.JFrame â
 CreateRideMockWhiteTest+
 <init>!CreateRideMockWhiteTest#<init>()V'
 initCreateRideMockWhiteTest#init()V/
@@ -88,30 +46,21 @@ updateUser0dataAccess.DataAccess#updateUser(Ldomain/User;)Vjava.lang.Object 
 isActivedomain.Discount#isActive()Z*
 	setActivedomain.Discount#setActive(Z)V9
 setKodea-domain.Discount#setKodea(Ljava/lang/String;)V4
-setPortzentaia"domain.Discount#setPortzentaia(D)Vjava.io.Serializablejava.lang.Object‚
+setPortzentaia"domain.Discount#setPortzentaia(D)Vjava.io.Serializablejava.lang.Object≈
 gui.BaloraGUI3
-<init>)gui.BaloraGUI#<init>(Ljava/lang/String;)VL
-getBusinessLogic8gui.BaloraGUI#getBusinessLogic()LbusinessLogic/BLFacade;i
-jButtonClose_actionPerformedIgui.BaloraGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)VO
-setBussinessLogic:gui.BaloraGUI#setBussinessLogic(LbusinessLogic/BLFacade;)Vjavax.swing.JFrameπ
+<init>)gui.BaloraGUI#<init>(Ljava/lang/String;)Vi
+jButtonClose_actionPerformedIgui.BaloraGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)Vjavax.swing.JFrame œ
 domain.DriverE
-<init>;domain.Driver#<init>(Ljava/lang/String;Ljava/lang/String;)V-
-addCar#domain.Driver#addCar(Ldomain/Car;)VP
-bilatumatrikula=domain.Driver#bilatumatrikula(Ljava/lang/String;)Ldomain/Car;e
+<init>;domain.Driver#<init>(Ljava/lang/String;Ljava/lang/String;)Ve
 doesRideExistsSdomain.Driver#doesRideExists(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Z3
-equals)domain.Driver#equals(Ljava/lang/Object;)Z2
-getCars'domain.Driver#getCars()Ljava/util/List;3
-	removeCar&domain.Driver#removeCar(Ldomain/Car;)V6
-toString*domain.Driver#toString()Ljava/lang/String;java.io.Serializabledomain.User è
+equals)domain.Driver#equals(Ljava/lang/Object;)Z6
+toString*domain.Driver#toString()Ljava/lang/String;java.io.Serializabledomain.User ‡
 gui.ErreserbaOnartuGUI<
-<init>2gui.ErreserbaOnartuGUI#<init>(Ljava/lang/String;)VU
-getBusinessLogicAgui.ErreserbaOnartuGUI#getBusinessLogic()LbusinessLogic/BLFacade;r
-jButtonClose_actionPerformedRgui.ErreserbaOnartuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)VX
-setBussinessLogicCgui.ErreserbaOnartuGUI#setBussinessLogic(LbusinessLogic/BLFacade;)Vjavax.swing.JFrame∏
+<init>2gui.ErreserbaOnartuGUI#<init>(Ljava/lang/String;)Vr
+jButtonClose_actionPerformedRgui.ErreserbaOnartuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)Vjavax.swing.JFrame ‡
 gui.DeskontuKudeatuGUI<
 <init>2gui.DeskontuKudeatuGUI#<init>(Ljava/lang/String;)Vr
-jButtonClose_actionPerformedRgui.DeskontuKudeatuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)VX
-setBussinessLogicCgui.DeskontuKudeatuGUI#setBussinessLogic(LbusinessLogic/BLFacade;)Vjavax.swing.JFrame´
+jButtonClose_actionPerformedRgui.DeskontuKudeatuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)Vjavax.swing.JFrame ´
 domain.UserU
 <init>Kdomain.User#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V1
 equals'domain.User#equals(Ljava/lang/Object;)Z%
@@ -131,35 +80,25 @@ updateUser0dataAccess.DataAccess#updateUser(Ldomain/User;)Vjava.lang.Object 
 setMota(domain.User#setMota(Ljava/lang/String;)V;
 setPassword,domain.User#setPassword(Ljava/lang/String;)V;
 setUsername,domain.User#setUsername(Ljava/lang/String;)V4
-toString(domain.User#toString()Ljava/lang/String;java.io.Serializablejava.lang.Objectû
+toString(domain.User#toString()Ljava/lang/String;java.io.Serializablejava.lang.ObjectŒ
 gui.DeskontuaGUI6
 <init>,gui.DeskontuaGUI#<init>(Ljava/lang/String;)Vl
-jButtonClose_actionPerformedLgui.DeskontuaGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)VP
-setBusinessLogic<gui.DeskontuaGUI#setBusinessLogic(LbusinessLogic/BLFacade;)Vjavax.swing.JFrame…
+jButtonClose_actionPerformedLgui.DeskontuaGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)Vjavax.swing.JFrame ∞
 gui.LoginGUI 
-<init>gui.LoginGUI#<init>()VK
-getBusinessLogic7gui.LoginGUI#getBusinessLogic()LbusinessLogic/BLFacade;h
-jButtonClose_actionPerformedHgui.LoginGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)VL
-setBusinessLogic8gui.LoginGUI#setBusinessLogic(LbusinessLogic/BLFacade;)Vjavax.swing.JFrame⁄
+<init>gui.LoginGUI#<init>()Vh
+jButtonClose_actionPerformedHgui.LoginGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)Vjavax.swing.JFrame π
 gui.RegisterGUI#
-<init>gui.RegisterGUI#<init>()VN
-getBusinessLogic:gui.RegisterGUI#getBusinessLogic()LbusinessLogic/BLFacade;k
-jButtonClose_actionPerformedKgui.RegisterGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)VQ
-setBussinessLogic<gui.RegisterGUI#setBussinessLogic(LbusinessLogic/BLFacade;)Vjavax.swing.JFrame‚
+<init>gui.RegisterGUI#<init>()Vk
+jButtonClose_actionPerformedKgui.RegisterGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)Vjavax.swing.JFrame ≈
 gui.DriverGUI3
-<init>)gui.DriverGUI#<init>(Ljava/lang/String;)VL
-getBusinessLogic8gui.DriverGUI#getBusinessLogic()LbusinessLogic/BLFacade;i
-jButtonClose_actionPerformedIgui.DriverGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)VO
-setBussinessLogic:gui.DriverGUI#setBussinessLogic(LbusinessLogic/BLFacade;)Vjavax.swing.JFrameÒ
+<init>)gui.DriverGUI#<init>(Ljava/lang/String;)Vi
+jButtonClose_actionPerformedIgui.DriverGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)Vjavax.swing.JFrame Œ
 gui.MovementsGUI6
-<init>,gui.MovementsGUI#<init>(Ljava/lang/String;)VO
-getBusinessLogic;gui.MovementsGUI#getBusinessLogic()LbusinessLogic/BLFacade;l
-jButtonClose_actionPerformedLgui.MovementsGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)VR
-setBussinessLogic=gui.MovementsGUI#setBussinessLogic(LbusinessLogic/BLFacade;)Vjavax.swing.JFrame¥
+<init>,gui.MovementsGUI#<init>(Ljava/lang/String;)Vl
+jButtonClose_actionPerformedLgui.MovementsGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)Vjavax.swing.JFrame ›
 gui.BidaiakKudeatuGUI;
 <init>1gui.BidaiakKudeatuGUI#<init>(Ljava/lang/String;)Vq
-jButtonClose_actionPerformedQgui.BidaiakKudeatuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)VW
-setBussinessLogicBgui.BidaiakKudeatuGUI#setBussinessLogic(LbusinessLogic/BLFacade;)Vjavax.swing.JFrameî
+jButtonClose_actionPerformedQgui.BidaiakKudeatuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)Vjavax.swing.JFrame î
 gui.ApplicationLauncher+
 <init>!gui.ApplicationLauncher#<init>()V:
 main2gui.ApplicationLauncher#main([Ljava/lang/String;)Vjava.lang.Object≠
@@ -169,24 +108,18 @@ updateUser0dataAccess.DataAccess#updateUser(Ldomain/User;)Vjava.lang.Object 
 createDriverbtestOperations.TestBusinessLogic#createDriver(Ljava/lang/String;Ljava/lang/String;)Ldomain/Driver;P
 existDriverAtestOperations.TestBusinessLogic#existDriver(Ljava/lang/String;)ZÄ
 	existRidestestOperations.TestBusinessLogic#existRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)ZR
-removeDriverBtestOperations.TestBusinessLogic#removeDriver(Ljava/lang/String;)Zjava.lang.Object ≤
- dataAccess.ObjectdbManagerServer4
-<init>*dataAccess.ObjectdbManagerServer#<init>()VC
-main;dataAccess.ObjectdbManagerServer#main([Ljava/lang/String;)Vjavax.swing.JDialog‚
+removeDriverBtestOperations.TestBusinessLogic#removeDriver(Ljava/lang/String;)Zjava.lang.Object ≈
 gui.EgoeraGUI3
-<init>)gui.EgoeraGUI#<init>(Ljava/lang/String;)VL
-getBusinessLogic8gui.EgoeraGUI#getBusinessLogic()LbusinessLogic/BLFacade;i
-jButtonClose_actionPerformedIgui.EgoeraGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)VO
-setBussinessLogic:gui.EgoeraGUI#setBussinessLogic(LbusinessLogic/BLFacade;)Vjavax.swing.JFrame∂
+<init>)gui.EgoeraGUI#<init>(Ljava/lang/String;)Vi
+jButtonClose_actionPerformedIgui.EgoeraGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)Vjavax.swing.JFrame ﬁ
 gui.AlertaAurkituakGUI<
 <init>2gui.AlertaAurkituakGUI#<init>(Ljava/lang/String;)Vp
-closeButton_actionPerformedQgui.AlertaAurkituakGUI#closeButton_actionPerformed(Ljava/awt/event/ActionEvent;)VX
-setBussinessLogicCgui.AlertaAurkituakGUI#setBussinessLogic(LbusinessLogic/BLFacade;)Vjavax.swing.JFrame‚
+closeButton_actionPerformedQgui.AlertaAurkituakGUI#closeButton_actionPerformed(Ljava/awt/event/ActionEvent;)Vjavax.swing.JFrame ‚
 gui.BezeroGUI3
 <init>)gui.BezeroGUI#<init>(Ljava/lang/String;)VL
-getBusinessLogic8gui.BezeroGUI#getBusinessLogic()LbusinessLogic/BLFacade;i
+getBusinessLogic8gui.BezeroGUI#getBusinessLogic()Lbusinesslogic/BLFacade;i
 jButtonClose_actionPerformedIgui.BezeroGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)VO
-setBussinessLogic:gui.BezeroGUI#setBussinessLogic(LbusinessLogic/BLFacade;)Vjavax.swing.JFrame¡
+setBussinessLogic:gui.BezeroGUI#setBussinessLogic(Lbusinesslogic/BLFacade;)Vjavax.swing.JFrame¡
 $exceptions.RideAlreadyExistException8
 <init>.exceptions.RideAlreadyExistException#<init>()VJ
 <init>@exceptions.RideAlreadyExistException#<init>(Ljava/lang/String;)Vjava.lang.Exception¥
@@ -195,46 +128,9 @@ $exceptions.RideAlreadyExistException8
 jButton2_actionPerformedHgui.FindRidesGUI#jButton2_actionPerformed(Ljava/awt/event/ActionEvent;)Vjavax.swing.JFrame Ï
 gui.TravelerGUI5
 <init>+gui.TravelerGUI#<init>(Ljava/lang/String;)VN
-getBusinessLogic:gui.TravelerGUI#getBusinessLogic()LbusinessLogic/BLFacade;k
+getBusinessLogic:gui.TravelerGUI#getBusinessLogic()Lbusinesslogic/BLFacade;k
 jButtonClose_actionPerformedKgui.TravelerGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)VQ
-setBussinessLogic<gui.TravelerGUI#setBussinessLogic(LbusinessLogic/BLFacade;)Vjavax.swing.JFrameæ
-$businessLogic.BLFacadeImplementation8
-<init>.businessLogic.BLFacadeImplementation#<init>()VO
-<init>EbusinessLogic.BLFacadeImplementation#<init>(LdataAccess/DataAccess;)VV
-addCarLbusinessLogic.BLFacadeImplementation#addCar(Ljava/lang/String;Ldomain/Car;)Zb
-	addDriverUbusinessLogic.BLFacadeImplementation#addDriver(Ljava/lang/String;Ljava/lang/String;)Zb
-addMovementSbusinessLogic.BLFacadeImplementation#addMovement(Ldomain/User;Ljava/lang/String;D)Vf
-addTravelerWbusinessLogic.BLFacadeImplementation#addTraveler(Ljava/lang/String;Ljava/lang/String;)Z6
-close-businessLogic.BLFacadeImplementation#close()VY
-createDiscountGbusinessLogic.BLFacadeImplementation#createDiscount(Ldomain/Discount;)VC
-deleteAlert4businessLogic.BLFacadeImplementation#deleteAlert(I)ZJ
-	deleteCar=businessLogic.BLFacadeImplementation#deleteCar(Ldomain/Car;)VY
-deleteDiscountGbusinessLogic.BLFacadeImplementation#deleteDiscount(Ldomain/Discount;)VM
-
-deleteUser?businessLogic.BLFacadeImplementation#deleteUser(Ldomain/User;)V`
-gauzatuEragiketaLbusinessLogic.BLFacadeImplementation#gauzatuEragiketa(Ljava/lang/String;DZ)ZZ
-getActualMoneyHbusinessLogic.BLFacadeImplementation#getActualMoney(Ljava/lang/String;)DY
-getAllDiscountsFbusinessLogic.BLFacadeImplementation#getAllDiscounts()Ljava/util/List;f
-getAllMovementsSbusinessLogic.BLFacadeImplementation#getAllMovements(Ldomain/User;)Ljava/util/List;Y
-getDepartCitiesFbusinessLogic.BLFacadeImplementation#getDepartCities()Ljava/util/List;u
-getDestinationCities]businessLogic.BLFacadeImplementation#getDestinationCities(Ljava/lang/String;)Ljava/util/List;d
-getDiscountUbusinessLogic.BLFacadeImplementation#getDiscount(Ljava/lang/String;)Ldomain/Discount;^
-	getDriverQbusinessLogic.BLFacadeImplementation#getDriver(Ljava/lang/String;)Ldomain/Driver;o
-getKotxeByMatrikulaXbusinessLogic.BLFacadeImplementation#getKotxeByMatrikula(Ljava/lang/String;)Ldomain/Car;q
-getMotaByUsername\businessLogic.BLFacadeImplementation#getMotaByUsername(Ljava/lang/String;)Ljava/lang/String;§
-getThisMonthDatesWithRidesÖbusinessLogic.BLFacadeImplementation#getThisMonthDatesWithRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;d
-getTravelerUbusinessLogic.BLFacadeImplementation#getTraveler(Ljava/lang/String;)Ldomain/Traveler;X
-getUserMbusinessLogic.BLFacadeImplementation#getUser(Ljava/lang/String;)Ldomain/User;Q
-getUserListBbusinessLogic.BLFacadeImplementation#getUserList()Ljava/util/List;D
-initializeBD4businessLogic.BLFacadeImplementation#initializeBD()V^
-isAddedSbusinessLogic.BLFacadeImplementation#isAdded(Ljava/lang/String;Ljava/lang/String;)Zh
-isRegisteredXbusinessLogic.BLFacadeImplementation#isRegistered(Ljava/lang/String;Ljava/lang/String;)Zh
-updateAlertaAurkituakObusinessLogic.BLFacadeImplementation#updateAlertaAurkituak(Ljava/lang/String;)ZY
-updateDiscountGbusinessLogic.BLFacadeImplementation#updateDiscount(Ldomain/Discount;)VS
-updateDriverCbusinessLogic.BLFacadeImplementation#updateDriver(Ldomain/Driver;)VY
-updateTravelerGbusinessLogic.BLFacadeImplementation#updateTraveler(Ldomain/Traveler;)VM
-
-updateUser?businessLogic.BLFacadeImplementation#updateUser(Ldomain/User;)VbusinessLogic.BLFacadejava.lang.Object 
+setBussinessLogic<gui.TravelerGUI#setBussinessLogic(Lbusinesslogic/BLFacade;)Vjavax.swing.JFrame
 CreateRideBDBlackTest)
 <init>CreateRideBDBlackTest#<init>()V'
 test1CreateRideBDBlackTest#test1()V)
@@ -249,42 +145,123 @@ updateUser?businessLogic.BLFacadeImplementation#updateUser(Ldomain/User;)Vbus
 test9CreateRideBDBlackTest#test9()Vjava.lang.Object›
 gui.AdminGUI2
 <init>(gui.AdminGUI#<init>(Ljava/lang/String;)VK
-getBusinessLogic7gui.AdminGUI#getBusinessLogic()LbusinessLogic/BLFacade;h
+getBusinessLogic7gui.AdminGUI#getBusinessLogic()Lbusinesslogic/BLFacade;h
 jButtonClose_actionPerformedHgui.AdminGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)VN
-setBussinessLogic9gui.AdminGUI#setBussinessLogic(LbusinessLogic/BLFacade;)Vjavax.swing.JFrame˚
+setBussinessLogic9gui.AdminGUI#setBussinessLogic(Lbusinesslogic/BLFacade;)Vjavax.swing.JFrame¬
+2testGauzatuEragiketa.gauzatuEragiketaMockBlackTestF
+<init><testGauzatuEragiketa.gauzatuEragiketaMockBlackTest#<init>()VB
+init:testGauzatuEragiketa.gauzatuEragiketaMockBlackTest#init()VJ
+tearDown>testGauzatuEragiketa.gauzatuEragiketaMockBlackTest#tearDown()VD
+test1;testGauzatuEragiketa.gauzatuEragiketaMockBlackTest#test1()VD
+test2;testGauzatuEragiketa.gauzatuEragiketaMockBlackTest#test2()VD
+test3;testGauzatuEragiketa.gauzatuEragiketaMockBlackTest#test3()VD
+test4;testGauzatuEragiketa.gauzatuEragiketaMockBlackTest#test4()VD
+test5;testGauzatuEragiketa.gauzatuEragiketaMockBlackTest#test5()VD
+test6;testGauzatuEragiketa.gauzatuEragiketaMockBlackTest#test6()Vjava.lang.Object˚
 gui.AlertakKudeatuGUI;
 <init>1gui.AlertakKudeatuGUI#<init>(Ljava/lang/String;)Vo
 closeButton_actionPerformedPgui.AlertakKudeatuGUI#closeButton_actionPerformed(Ljava/awt/event/ActionEvent;)VG
 refreshTable7gui.AlertakKudeatuGUI#refreshTable(Ljava/lang/String;)VW
-setBussinessLogicBgui.AlertakKudeatuGUI#setBussinessLogic(LbusinessLogic/BLFacade;)Vjavax.swing.JFrame≠
+setBussinessLogicBgui.AlertakKudeatuGUI#setBussinessLogic(Lbusinesslogic/BLFacade;)Vjavax.swing.JFrameﬁ
+0testGauzatuEragiketa.gauzatuEragiketaBDWhiteTestD
+<init>:testGauzatuEragiketa.gauzatuEragiketaBDWhiteTest#<init>()VB
+test19testGauzatuEragiketa.gauzatuEragiketaBDWhiteTest#test1()VB
+test29testGauzatuEragiketa.gauzatuEragiketaBDWhiteTest#test2()VB
+test39testGauzatuEragiketa.gauzatuEragiketaBDWhiteTest#test3()VB
+test49testGauzatuEragiketa.gauzatuEragiketaBDWhiteTest#test4()VB
+test59testGauzatuEragiketa.gauzatuEragiketaBDWhiteTest#test5()Vjava.lang.Object∆
 
 domain.CarC
-<init>9domain.Car#<init>(Ljava/lang/String;Ljava/lang/String;I)V2
-	getDriver%domain.Car#getDriver()Ldomain/Driver;,
+<init>9domain.Car#<init>(Ljava/lang/String;Ljava/lang/String;I)V,
 getEserlekuakdomain.Car#getEserlekuak()I;
 getMatrikula+domain.Car#getMatrikula()Ljava/lang/String;7
 
-getModeloa)domain.Car#getModeloa()Ljava/lang/String;3
-	setDriver&domain.Car#setDriver(Ldomain/Driver;)V-
+getModeloa)domain.Car#getModeloa()Ljava/lang/String;-
 setEserlekuakdomain.Car#setEserlekuak(I)V<
 setMatrikula,domain.Car#setMatrikula(Ljava/lang/String;)V8
 
-setModeloa*domain.Car#setModeloa(Ljava/lang/String;)Vjava.io.Serializablejava.lang.Object
-domain.MovementC
-<init>9domain.Movement#<init>(Ldomain/User;Ljava/lang/String;D)V@
+setModeloa*domain.Car#setModeloa(Ljava/lang/String;)Vjava.io.Serializablejava.lang.Object *
+businesslogic.BLFacadejava.lang.Objecté
+$businesslogic.BLFacadeImplementation8
+<init>.businesslogic.BLFacadeImplementation#<init>()VV
+addCarLbusinesslogic.BLFacadeImplementation#addCar(Ljava/lang/String;Ldomain/Car;)Zb
+	addDriverUbusinesslogic.BLFacadeImplementation#addDriver(Ljava/lang/String;Ljava/lang/String;)Zf
+addTravelerWbusinesslogic.BLFacadeImplementation#addTraveler(Ljava/lang/String;Ljava/lang/String;)Z6
+close-businesslogic.BLFacadeImplementation#close()VC
+deleteAlert4businesslogic.BLFacadeImplementation#deleteAlert(I)ZJ
+	deleteCar=businesslogic.BLFacadeImplementation#deleteCar(Ldomain/Car;)V`
+gauzatuEragiketaLbusinesslogic.BLFacadeImplementation#gauzatuEragiketa(Ljava/lang/String;DZ)ZZ
+getActualMoneyHbusinesslogic.BLFacadeImplementation#getActualMoney(Ljava/lang/String;)DY
+getDepartCitiesFbusinesslogic.BLFacadeImplementation#getDepartCities()Ljava/util/List;u
+getDestinationCities]businesslogic.BLFacadeImplementation#getDestinationCities(Ljava/lang/String;)Ljava/util/List;o
+getKotxeByMatrikulaXbusinesslogic.BLFacadeImplementation#getKotxeByMatrikula(Ljava/lang/String;)Ldomain/Car;q
+getMotaByUsername\businesslogic.BLFacadeImplementation#getMotaByUsername(Ljava/lang/String;)Ljava/lang/String;§
+getThisMonthDatesWithRidesÖbusinesslogic.BLFacadeImplementation#getThisMonthDatesWithRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;D
+initializeBD4businesslogic.BLFacadeImplementation#initializeBD()V^
+isAddedSbusinesslogic.BLFacadeImplementation#isAdded(Ljava/lang/String;Ljava/lang/String;)Zh
+isRegisteredXbusinesslogic.BLFacadeImplementation#isRegistered(Ljava/lang/String;Ljava/lang/String;)Zh
+updateAlertaAurkituakObusinesslogic.BLFacadeImplementation#updateAlertaAurkituak(Ljava/lang/String;)Zbusinesslogic.BLFacadejava.lang.Object ¸
+2testGauzatuEragiketa.gauzatuEragiketaMockWhiteTestF
+<init><testGauzatuEragiketa.gauzatuEragiketaMockWhiteTest#<init>()VB
+init:testGauzatuEragiketa.gauzatuEragiketaMockWhiteTest#init()VJ
+tearDown>testGauzatuEragiketa.gauzatuEragiketaMockWhiteTest#tearDown()VD
+test1;testGauzatuEragiketa.gauzatuEragiketaMockWhiteTest#test1()VD
+test2;testGauzatuEragiketa.gauzatuEragiketaMockWhiteTest#test2()VD
+test3;testGauzatuEragiketa.gauzatuEragiketaMockWhiteTest#test3()VD
+test4;testGauzatuEragiketa.gauzatuEragiketaMockWhiteTest#test4()VD
+test5;testGauzatuEragiketa.gauzatuEragiketaMockWhiteTest#test5()Vjava.lang.Object≤
+ dataaccess.ObjectdbManagerServer4
+<init>*dataaccess.ObjectdbManagerServer#<init>()VC
+main;dataaccess.ObjectdbManagerServer#main([Ljava/lang/String;)Vjavax.swing.JDialogæ
+domain.Movement@
 getEragiketa0domain.Movement#getEragiketa()Ljava/lang/String;!
 getIddomain.Movement#getId()I+
 
-getKopuruadomain.Movement#getKopurua()D1
-getUser&domain.Movement#getUser()Ldomain/User;A
+getKopuruadomain.Movement#getKopurua()DA
 setEragiketa1domain.Movement#setEragiketa(Ljava/lang/String;)V,
 
-setKopuruadomain.Movement#setKopurua(D)V:
-setUsername+domain.Movement#setUsername(Ldomain/User;)Vjava.io.Serializablejava.lang.Objectù
+setKopuruadomain.Movement#setKopurua(D)Vjava.io.Serializablejava.lang.Object ∆
 gui.KotxeaGehituGUI9
 <init>/gui.KotxeaGehituGUI#<init>(Ljava/lang/String;)VD
-field_Errors4gui.KotxeaGehituGUI#field_Errors()Ljava/lang/String;o
-jButtonClose_actionPerformedOgui.KotxeaGehituGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)Vjavax.swing.JFrame Ø
+field_Errors4gui.KotxeaGehituGUI#field_Errors()Ljava/lang/String;R
+getBusinessLogic>gui.KotxeaGehituGUI#getBusinessLogic()Lbusinesslogic/BLFacade;o
+jButtonClose_actionPerformedOgui.KotxeaGehituGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)VU
+setBussinessLogic@gui.KotxeaGehituGUI#setBussinessLogic(Lbusinesslogic/BLFacade;)Vjavax.swing.JFrameÊ
+dataaccess.DataAccess)
+<init>dataaccess.DataAccess#<init>()VS
+	addDriverFdataaccess.DataAccess#addDriver(Ljava/lang/String;Ljava/lang/String;)ZW
+addTravelerHdataaccess.DataAccess#addTraveler(Ljava/lang/String;Ljava/lang/String;)ZN
+bookRideBdataaccess.DataAccess#bookRide(Ljava/lang/String;Ldomain/Ride;ID)Z>
+
+cancelRide0dataaccess.DataAccess#cancelRide(Ldomain/Ride;)V'
+closedataaccess.DataAccess#close()VA
+createAlert2dataaccess.DataAccess#createAlert(Ldomain/Alert;)ZÖ
+
+createRidewdataaccess.DataAccess#createRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IFLjava/lang/String;)Ldomain/Ride;4
+deleteAlert%dataaccess.DataAccess#deleteAlert(I)Zõ
+erreklamazioaBidaliÉdataaccess.DataAccess#erreklamazioaBidali(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ldomain/Booking;Ljava/lang/String;Z)ZQ
+gauzatuEragiketa=dataaccess.DataAccess#gauzatuEragiketa(Ljava/lang/String;DZ)ZK
+getActualMoney9dataaccess.DataAccess#getActualMoney(Ljava/lang/String;)D;
+getAlert/dataaccess.DataAccess#getAlert(I)Ldomain/Alert;d
+getAlertsByUsernameMdataaccess.DataAccess#getAlertsByUsername(Ljava/lang/String;)Ljava/util/List;^
+getArrivalCitiesJdataaccess.DataAccess#getArrivalCities(Ljava/lang/String;)Ljava/util/List;Z
+getBookedRidesHdataaccess.DataAccess#getBookedRides(Ljava/lang/String;)Ljava/util/List;f
+getBookingFromDriverNdataaccess.DataAccess#getBookingFromDriver(Ljava/lang/String;)Ljava/util/List;d
+getComplaintsByBookMdataaccess.DataAccess#getComplaintsByBook(Ldomain/Booking;)Ldomain/Complaint;J
+getDepartCities7dataaccess.DataAccess#getDepartCities()Ljava/util/List;b
+getMotabyUsernameMdataaccess.DataAccess#getMotabyUsername(Ljava/lang/String;)Ljava/lang/String;b
+getPastBookedRidesLdataaccess.DataAccess#getPastBookedRides(Ljava/lang/String;)Ljava/util/List;p
+getRidesddataaccess.DataAccess#getRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;^
+getRidesByDriverJdataaccess.DataAccess#getRidesByDriver(Ljava/lang/String;)Ljava/util/List;î
+getThisMonthDatesWithRidesvdataaccess.DataAccess#getThisMonthDatesWithRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;5
+initializeDB%dataaccess.DataAccess#initializeDB()VO
+isAddedDdataaccess.DataAccess#isAdded(Ljava/lang/String;Ljava/lang/String;)ZY
+isRegisteredIdataaccess.DataAccess#isRegistered(Ljava/lang/String;Ljava/lang/String;)Z%
+opendataaccess.DataAccess#open()VA
+updateAlert2dataaccess.DataAccess#updateAlert(Ldomain/Alert;)VY
+updateAlertaAurkituak@dataaccess.DataAccess#updateAlertaAurkituak(Ljava/lang/String;)ZG
+updateBooking6dataaccess.DataAccess#updateBooking(Ldomain/Booking;)VM
+updateComplaint:dataaccess.DataAccess#updateComplaint(Ldomain/Complaint;)Vjava.lang.Object Ø
 domain.Ride8
 getBookings)domain.Ride#getBookings()Ljava/util/List;0
 getDate%domain.Ride#getDate()Ljava/util/Date;2
@@ -352,7 +329,15 @@ paintAgaingui.MainGUI#paintAgain()Vjavax.swing.JFrame Ë
 	setStatus-domain.Booking#setStatus(Ljava/lang/String;)Vjava.io.Serializablejava.lang.Object ˇ
 gui.ErreklamazioakGUI]
 <init>Sgui.ErreklamazioakGUI#<init>(Ljava/lang/String;Ljava/lang/String;Ldomain/Booking;)Vq
-jButtonClose_actionPerformedQgui.ErreklamazioakGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)Vjavax.swing.JFrame ‚
+jButtonClose_actionPerformedQgui.ErreklamazioakGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)Vjavax.swing.JFrame ¢
+0testGauzatuEragiketa.gauzatuEragiketaBDBlackTestD
+<init>:testGauzatuEragiketa.gauzatuEragiketaBDBlackTest#<init>()VB
+test19testGauzatuEragiketa.gauzatuEragiketaBDBlackTest#test1()VB
+test29testGauzatuEragiketa.gauzatuEragiketaBDBlackTest#test2()VB
+test39testGauzatuEragiketa.gauzatuEragiketaBDBlackTest#test3()VB
+test49testGauzatuEragiketa.gauzatuEragiketaBDBlackTest#test4()VB
+test59testGauzatuEragiketa.gauzatuEragiketaBDBlackTest#test5()VB
+test69testGauzatuEragiketa.gauzatuEragiketaBDBlackTest#test6()Vjava.lang.Object‚
 CreateRideMockBlackTest+
 <init>!CreateRideMockBlackTest#<init>()V'
 initCreateRideMockBlackTest#init()V/
@@ -366,7 +351,10 @@ paintAgaingui.MainGUI#paintAgain()Vjavax.swing.JFrame Ë
 test6 CreateRideMockBlackTest#test6()V)
 test7 CreateRideMockBlackTest#test7()V)
 test8 CreateRideMockBlackTest#test8()V)
-test9 CreateRideMockBlackTest#test9()Vjava.lang.Object 
+test9 CreateRideMockBlackTest#test9()Vjava.lang.Objectµ
+!businesslogic.BusinessLogicServer5
+<init>+businesslogic.BusinessLogicServer#<init>()VD
+main<businesslogic.BusinessLogicServer#main([Ljava/lang/String;)Vjavax.swing.JDialog 
 CreateRideBDWhiteTest)
 <init>CreateRideBDWhiteTest#<init>()V'
 test1CreateRideBDWhiteTest#test1()V'
@@ -398,10 +386,7 @@ setBooking.domain.Complaint#setBooking(Ldomain/Booking;)VF
 gui.MoneyGUI2
 <init>(gui.MoneyGUI#<init>(Ljava/lang/String;)V6
 isNumber*gui.MoneyGUI#isNumber(Ljava/lang/String;)Zh
-jButtonClose_actionPerformedHgui.MoneyGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)Vjavax.swing.JFrame µ
-!businessLogic.BusinessLogicServer5
-<init>+businessLogic.BusinessLogicServer#<init>()VD
-main<businessLogic.BusinessLogicServer#main([Ljava/lang/String;)Vjavax.swing.JDialogû	
+jButtonClose_actionPerformedHgui.MoneyGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)Vjavax.swing.JFrame û	
 configuration.ConfigXML+
 <init>!configuration.ConfigXML#<init>()VX
 getBusinessLogicName@configuration.ConfigXML#getBusinessLogicName()Ljava/lang/String;X
@@ -430,10 +415,7 @@ setBooking.domain.Complaint#setBooking(Ldomain/Booking;)VF
 gui.AlertaSortuGUI8
 <init>.gui.AlertaSortuGUI#<init>(Ljava/lang/String;)VC
 field_Errors3gui.AlertaSortuGUI#field_Errors()Ljava/lang/String;n
-jButtonClose_actionPerformedNgui.AlertaSortuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)Vjavax.swing.JFrame ´
-java.util.StringTokenizerH
-nextElement9java.util.StringTokenizer#nextElement()Ljava/lang/Object;D
-	nextToken7java.util.StringTokenizer#nextToken()Ljava/lang/String;<
+jButtonClose_actionPerformedNgui.AlertaSortuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)Vjavax.swing.JFrame <
 java.util.Scanner'
 nextIntjava.util.Scanner#nextInt()IY
 java.io.BufferedReader?
@@ -472,4 +454,7 @@ setBooking.domain.Complaint#setBooking(Ldomain/Booking;)VF
 java.util.Scanner'
 nextIntjava.util.Scanner#nextInt()IY
 java.io.BufferedReader?
-readLine3java.io.BufferedReader#readLine()Ljava/lang/String;
+readLine3java.io.BufferedReader#readLine()Ljava/lang/String;´
+java.util.StringTokenizerH
+nextElement9java.util.StringTokenizer#nextElement()Ljava/lang/Object;D
+	nextToken7java.util.StringTokenizer#nextToken()Ljava/lang/String;

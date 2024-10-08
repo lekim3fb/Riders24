@@ -1,1 +1,2 @@
-domain.Alert#setFound(Z)V
+domain.Alert#setAlertNumber(Ljava/lang/Integer;)V
+806ff4f81bbf9ac3b7e219d80391c0f6

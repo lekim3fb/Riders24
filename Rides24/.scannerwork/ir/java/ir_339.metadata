@@ -1,1 +1,6 @@
-domain.Booking#getRide()Ldomain/Ride;
+configuration.UtilDate#datesAreEqualIgnoringTime(Ljava/util/Date;Ljava/util/Date;)Z
+c36d89abeac678f43a1df58f6875b2b7
+java.util.Calendar#getInstance()Ljava/util/Calendar;
+java.util.Calendar#setTime(Ljava/util/Date;)V
+==
+get java.util.Calendar#get(I)I

@@ -1,1 +1,2 @@
-gui.ArazoaGUI#getBusinessLogic()LBLFacade;
+domain.Alert#setTo(Ljava/lang/String;)V
+40cb0e4a455e91c5f3e6c946fee2ee34

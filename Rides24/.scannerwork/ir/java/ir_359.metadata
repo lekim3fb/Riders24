@@ -1,2 +1,4 @@
-CreateRideMockBlackTest#init()V
-null
+domain.Booking#prezioaKalkulatu()D
+962909ea0a2019fb8d075db4e277f88c
+==
+getPrice domain.Ride#getPrice()D

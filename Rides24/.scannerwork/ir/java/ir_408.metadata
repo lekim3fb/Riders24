@@ -1,1 +1,2 @@
-domain.Admin2#setPasswd(Ljava/lang/String;)V
+configuration.ConfigXML#getInstance()Lconfiguration/ConfigXML;
+3fb819f7cd569887c15beac437f1012a

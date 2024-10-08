@@ -1,1 +1,2 @@
-domain.Driver#getCreatedRides()Ljava/util/List;
+domain.User#getMota()Ljava/lang/String;
+177c9657fccc40ff8fd38ecc40162830

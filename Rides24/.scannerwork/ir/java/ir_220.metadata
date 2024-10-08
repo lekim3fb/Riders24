@@ -1,5 +1,2 @@
-businessLogic.BLFacadeImplementation#addCar(Ljava/lang/String;Ldomain/Car;)Z
-==
-addCar dataAccess.DataAccess#addCar(Ljava/lang/String;Ldomain/Car;)Z
-close dataAccess.DataAccess#close()V
-open dataAccess.DataAccess#open()V
+businesslogic.BLFacadeImplementation#updateBooking(LBooking;)V
+dce496bfdb332f25b474d3cdf9dca281

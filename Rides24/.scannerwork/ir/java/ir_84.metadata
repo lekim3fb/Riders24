@@ -1,3 +1,2 @@
-domain.Driver#toString()Ljava/lang/String;
-==
-toString domain.User#toString()Ljava/lang/String;
+domain.User#setPassword(Ljava/lang/String;)V
+fc29575ccddbec7dd56db638bebc6a3c

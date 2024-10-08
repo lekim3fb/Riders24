@@ -1,1 +1,4 @@
-domain.Movement#instance-init#
+gui.KotxeaGehituGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
+f4625859ee850e36d185f9669b5f33cc
+==
+setVisible java.awt.Window#setVisible(Z)V

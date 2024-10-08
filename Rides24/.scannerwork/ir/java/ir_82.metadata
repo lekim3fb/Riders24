@@ -1,3 +1,2 @@
-domain.Driver#instance-init#
-java.util.Vector#<init>()V
-java.util.Vector#instance-init#
+domain.User#setUsername(Ljava/lang/String;)V
+ca46d1491e59086f3f5b42c4f58957b9

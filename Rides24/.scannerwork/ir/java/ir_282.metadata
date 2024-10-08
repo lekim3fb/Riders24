@@ -1,1 +1,2 @@
-domain.Ride#getTo()Ljava/lang/String;
+dataaccess.DataAccess#getKotxeByMatrikula(Ljava/lang/String;)LCar;
+606e8cadd502c9e45ef2bb8ec29d6f90

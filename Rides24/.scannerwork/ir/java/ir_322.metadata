@@ -1,3 +1,2 @@
-gui.ArazoaGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
-==
-setVisible java.awt.Window#setVisible(Z)V
+domain.Alert#getTraveler()LTraveler;
+bb9a0cf25d2ca4ff5d842d8bc2c099c9

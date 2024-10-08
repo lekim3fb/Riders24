@@ -1,1 +1,2 @@
-domain.Alert#instance-init#
+domain.Ride#getBookings()Ljava/util/List;
+bc24152a0857c20997d2a9a196a3d0f1

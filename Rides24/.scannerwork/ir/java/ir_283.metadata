@@ -1,1 +1,2 @@
-domain.Ride#setTo(Ljava/lang/String;)V
+dataaccess.DataAccess#getDiscount(Ljava/lang/String;)LDiscount;
+2a7e7bd05554cba6de5a3351b0ebc921

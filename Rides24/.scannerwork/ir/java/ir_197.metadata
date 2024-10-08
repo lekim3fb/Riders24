@@ -1,5 +1,2 @@
-businessLogic.BLFacadeImplementation#close()V
-dataAccess.DataAccess#instance-init#
-dataAccess.DataAccess#<init>()V
-==
-close dataAccess.DataAccess#close()V
+businesslogic.BLFacadeImplementation#getDestinationCities(Ljava/lang/String;)Ljava/util/List;
+c6747c851f275bed46621c0a124edda5

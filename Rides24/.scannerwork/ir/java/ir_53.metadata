@@ -1,3 +1,2 @@
-testOperations.TestDataAccess#close()V
-==
-println java.io.PrintStream#println(Ljava/lang/String;)V
+gui.BaloraGUI#getBusinessLogic()LBLFacade;
+51703ae11a9b2e3a2f4cd6acc546b3a3

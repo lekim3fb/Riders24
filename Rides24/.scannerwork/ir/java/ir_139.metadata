@@ -1,1 +1,2 @@
-gui.DriverGUI#getBusinessLogic()LbusinessLogic/BLFacade;
+gui.EgoeraGUI#setBussinessLogic(LBLFacade;)V
+1cb786c1b431af010237e9db27520917

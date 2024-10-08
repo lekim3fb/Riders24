@@ -1,1 +1,2 @@
-gui.KotxeaGehituGUI#setBussinessLogic(LBLFacade;)V
+dataaccess.DataAccess#getActualMoney(Ljava/lang/String;)D
+5112c62f57d1f725f679c0f9661c108f

@@ -1,1 +1,2 @@
-domain.Booking#setStatus(Ljava/lang/String;)V
+domain.Booking#<init>(Ldomain/Ride;LTraveler;I)V
+c235c4abf71c36fd3d0130465b3bd9a0

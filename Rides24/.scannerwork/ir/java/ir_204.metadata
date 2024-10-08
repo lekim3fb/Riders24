@@ -1,5 +1,2 @@
-businessLogic.BLFacadeImplementation#getMotaByUsername(Ljava/lang/String;)Ljava/lang/String;
-==
-getMotabyUsername dataAccess.DataAccess#getMotabyUsername(Ljava/lang/String;)Ljava/lang/String;
-close dataAccess.DataAccess#close()V
-open dataAccess.DataAccess#open()V
+businesslogic.BLFacadeImplementation#getActualMoney(Ljava/lang/String;)D
+2b16e881a6ef7b8e075c9897c350c256

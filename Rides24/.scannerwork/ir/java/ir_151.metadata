@@ -1,3 +1,2 @@
-gui.BidaiakKudeatuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
-==
-setVisible java.awt.Window#setVisible(Z)V
+exceptions.RideAlreadyExistException#instance-init#
+debf908c226bb6312fc8744c3160aef0

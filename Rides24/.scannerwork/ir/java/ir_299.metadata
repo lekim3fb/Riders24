@@ -1,1 +1,2 @@
-gui.KotxeakKudeatuGUI#setBussinessLogic(LBLFacade;)V
+domain.Ride#setDriver(LDriver;)V
+a73dfbb8c51bd86c7b02e4b1bca650fd

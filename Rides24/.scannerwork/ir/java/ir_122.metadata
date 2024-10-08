@@ -1,1 +1,4 @@
-domain.User#setErreklamaKop(I)V
+gui.MovementsGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
+6978c0ad664f6b0b593a899510734d07
+==
+setVisible java.awt.Window#setVisible(Z)V

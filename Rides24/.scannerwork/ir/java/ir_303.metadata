@@ -1,1 +1,2 @@
-domain.Alert#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;LTraveler;)V
+domain.Ride#setBookings(Ljava/util/List;)V
+bf0d5ee0b95c27c449d261fae9812d3b

@@ -1,1 +1,4 @@
-domain.User#getMoney()D
+gui.RegisterGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
+44bb06eb6a265dc47a1fc02ae9ed4e6d
+==
+setVisible java.awt.Window#setVisible(Z)V

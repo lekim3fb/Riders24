@@ -1,1 +1,2 @@
-gui.ArazoaGUI#setBussinessLogic(LBLFacade;)V
+domain.Alert#getDate()Ljava/util/Date;
+402a8a20aa6df9e12e767e7bc4637cea

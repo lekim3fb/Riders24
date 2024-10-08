@@ -1,5 +1,2 @@
-businessLogic.BLFacadeImplementation#getDriver(Ljava/lang/String;)Ldomain/Driver;
-==
-getDriver dataAccess.DataAccess#getDriver(Ljava/lang/String;)Ldomain/Driver;
-close dataAccess.DataAccess#close()V
-open dataAccess.DataAccess#open()V
+businesslogic.BLFacadeImplementation#initializeBD()V
+c652c12f6de25af7da961280aadbb83a

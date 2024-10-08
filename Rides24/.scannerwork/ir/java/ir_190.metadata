@@ -1,5 +1,2 @@
-businessLogic.BLFacadeImplementation#<init>()V
-dataAccess.DataAccess#instance-init#
-dataAccess.DataAccess#<init>()V
-==
-println java.io.PrintStream#println(Ljava/lang/String;)V
+domain.Car#setEserlekuak(I)V
+e0f494b0286acccedbf91ad7a6130f95

@@ -1,1 +1,2 @@
-domain.Alert#setFrom(Ljava/lang/String;)V
+domain.Ride#setActive(Z)V
+741d83c96b284427660db90413d7b5c9

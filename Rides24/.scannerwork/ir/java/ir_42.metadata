@@ -1,1 +1,4 @@
-domain.Traveler#getBookedRides()Ljava/util/List;
+exceptions.RideMustBeLaterThanTodayException#<init>()V
+81e95bc98e0d94b5da4596f1a117ca9f
+==
+<init> java.lang.Exception#<init>()V

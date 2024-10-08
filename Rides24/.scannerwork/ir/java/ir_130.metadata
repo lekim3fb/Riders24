@@ -1,1 +1,7 @@
-gui.LoginGUI#setBusinessLogic(LbusinessLogic/BLFacade;)V
+testOperations.TestBusinessLogic#<init>()V
+1c2eee80df3ff05dc13968d6df829843
+testOperations.TestDataAccess#instance-init#
+testOperations.TestDataAccess#<init>()V
+==
+println java.io.PrintStream#println(Ljava/lang/String;)V
+close testOperations.TestDataAccess#close()V

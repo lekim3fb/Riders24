@@ -1,1 +1,2 @@
-gui.MoneyGUI#getBusinessLogic()LBLFacade;
+domain.Complaint#getNori()Ljava/lang/String;
+28dae4d14d6740fff45b34c03b9b1440

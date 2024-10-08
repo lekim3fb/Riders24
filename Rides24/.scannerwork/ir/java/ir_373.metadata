@@ -1,1 +1,7 @@
-domain.Complaint#setNoiz(Ljava/util/Date;)V
+businesslogic.BusinessLogicServer#instance-init#
+bef429d39c59e6156e26f3592a74f335
+java.lang.Object#getClass()Ljava/lang/Class;
+java.util.logging.Logger#getLogger(Ljava/lang/String;)Ljava/util/logging/Logger;
+java.lang.Class#getName()Ljava/lang/String;
+javax.swing.JPanel#<init>()V
+javax.swing.JPanel#instance-init#

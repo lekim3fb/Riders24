@@ -1,2 +1,2 @@
-domain.Driver#addRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IF)LRide;
-null
+domain.User#getBalorazioa()D
+84e2d941f685277230e8eb9f373bb828

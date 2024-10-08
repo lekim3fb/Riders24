@@ -1,15 +1,15 @@
 
-6gui.BookGUI#getBusinessLogic()LbusinessLogic/BLFacade;X
-NC:/Users/saeze/Downloads/Rides24Complete-master/src/main/java/gui/BookGUI.javaI I(("1*°
-1J	 J(u
-s
-J	 J(
-%0businessLogic.BLFacade"__id*C
+,domain.Discount#getKodea()Ljava/lang/String;U
+KC:/Users/mikel/git/Riders24Euken/Rides24/src/main/java/domain/Discount.java ("1*›
+1	 (f
+d
+	 (
+%0java.lang.String"__id*:
 
-__unknown_file ('*%
-gui.BookGUI"
-appFacadeInterface"*
-J J(
-
-%0businessLogic.BLFacadeB"
-gui.BookGUIH
+__unknown_file (*
+domain.Discount"
+kodea"$
+ (
+
+%0java.lang.StringB
+domain.DiscountH

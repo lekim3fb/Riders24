@@ -1,1 +1,2 @@
-domain.Ride#setBookings(Ljava/util/List;)V
+domain.Ride#setTo(Ljava/lang/String;)V
+64d5a6e9bb4ec7d23a775d42fdd10d6c

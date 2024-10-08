@@ -1,1 +1,2 @@
-configuration.ConfigXML#isDatabaseInitialized()Z
+configuration.ConfigXML#getLocale()Ljava/lang/String;
+67e5c9d3e9a2d74c0dece6f67badcf0b

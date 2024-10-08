@@ -1,3 +1,5 @@
-exceptions.RideMustBeLaterThanTodayException#<init>()V
+domain.Driver#removeRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)LRide;
+7bb65f8fcef1d31c2f40c126527ca9a9
 ==
-<init> java.lang.Exception#<init>()V
+println java.io.PrintStream#println([C)V
+println java.io.PrintStream#println(Ljava/lang/String;)V

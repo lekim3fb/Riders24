@@ -1,17 +1,15 @@
 
-%domain.Car#getDriver()Ldomain/Driver;W
-MC:/Users/saeze/Downloads/Rides24Complete-master/src/main/java/domain/Car.java ("1*‘
-1	 (_
+%domain.Ride#getTo()Ljava/lang/String;Q
+GC:/Users/mikel/git/Riders24Euken/Rides24/src/main/java/domain/Ride.javaY Y("1*”
+1Z	 Z(_
 ]
-	 (
-%0domain.Driver"__id*6
+Z	 Z(
+%0java.lang.String"__id*3
 
-__unknown_file (*
-
-domain.Car"
-driver"!
- (
-
-%0domain.DriverB
-
-domain.CarH
+__unknown_file (*
+domain.Ride"
+to"$
+Z Z(
+
+%0java.lang.StringB
+domain.RideH

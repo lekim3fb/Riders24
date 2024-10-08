@@ -1,1 +1,7 @@
-domain.Movement#setEragiketa(Ljava/lang/String;)V
+dataaccess.DataAccess#getRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;
+e76a08bef16b217b9a86a152b344d1aa
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#
+==
+println java.io.PrintStream#println(Ljava/lang/String;)V
+add java.util.List#add(Ljava/lang/Object;)Z

@@ -1,1 +1,2 @@
-domain.Booking#getTraveler()LTraveler;
+gui.MainGUI#getBusinessLogic()LBLFacade;
+b180a7e651f9357f79d86bf173cd76e8

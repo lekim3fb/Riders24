@@ -1,1 +1,4 @@
-domain.Complaint#setNori(Ljava/lang/String;)V
+CreateRideMockBlackTest#init()V
+8cad89a74693488a61fea9ccf5c5401a
+dataaccess.DataAccess#<init>(LEntityManager;)V
+dataaccess.DataAccess#instance-init#

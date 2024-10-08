@@ -1,3 +1,2 @@
-gui.MainGUI#instance-init#
-javax.swing.ButtonGroup#instance-init#
-javax.swing.ButtonGroup#<init>()V
+gui.ArazoaGUI#setBussinessLogic(LBLFacade;)V
+26c0048247024ed15a6e9ec1ab824194

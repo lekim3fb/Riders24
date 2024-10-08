@@ -1,3 +1,2 @@
-gui.EzabatuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
-==
-setVisible java.awt.Window#setVisible(Z)V
+domain.Driver#setCreatedRides(Ljava/util/List;)V
+c89e9b34b99fb6762a6c9b146c07dfce

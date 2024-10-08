@@ -1,1 +1,2 @@
-domain.Ride#getBookings()Ljava/util/List;
+domain.Ride#getTo()Ljava/lang/String;
+d95fca325b814288dd7cb8421d4e52dd
