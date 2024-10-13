@@ -146,11 +146,12 @@ public class AlertaSortuGUI extends JFrame {
 
 		this.jCalendar.addPropertyChangeListener(new PropertyChangeListener() {
 			public void propertyChange(PropertyChangeEvent propertychangeevent) {
+				Object newValue = propertychangeevent.getNewValue();
 				if (propertychangeevent.getPropertyName().equals("locale")) {
-					jCalendar.setLocale((Locale) propertychangeevent.getNewValue());
+					jCalendar.setLocale((Locale) newValue);
 				} else if (propertychangeevent.getPropertyName().equals("calendar")) {
 					calendarAnt = (Calendar) propertychangeevent.getOldValue();
-					calendarAct = (Calendar) propertychangeevent.getNewValue();
+					calendarAct = (Calendar) newValue;
 					@SuppressWarnings("unused")
 					DateFormat dateformat1 = DateFormat.getDateInstance(1, jCalendar.getLocale());
 

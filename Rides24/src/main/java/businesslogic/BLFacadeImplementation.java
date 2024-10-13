@@ -8,7 +8,9 @@ import javax.jws.WebMethod;
 import javax.jws.WebService;
 
 import configuration.ConfigXML;
+import dataaccess.CreateRideParameter;
 import dataaccess.DataAccess;
+import dataaccess.ErreklamazioaBidaliParameter;
 import domain.Ride;
 import domain.Traveler;
 import domain.User;
@@ -85,7 +87,7 @@ public class BLFacadeImplementation implements BLFacade {
 			throws RideMustBeLaterThanTodayException, RideAlreadyExistException {
 
 		dbManager.open();
-		Ride ride = dbManager.createRide(from, to, date, nPlaces, price, driverName);
+		Ride ride = dbManager.createRide(new CreateRideParameter(from, to, date, nPlaces, price, driverName));
 		dbManager.close();
 		return ride;
 	}
@@ -330,7 +332,7 @@ public class BLFacadeImplementation implements BLFacade {
 	@Override
 	public boolean erreklamazioaBidali(String nor, String nori, Date gaur, Booking book, String textua, boolean aurk) {
 		dbManager.open();
-		boolean sent = dbManager.erreklamazioaBidali(nor, nori, gaur, book, textua, aurk);
+		boolean sent = dbManager.erreklamazioaBidali(new ErreklamazioaBidaliParameter(nor, nori, gaur, book, textua, aurk));
 		dbManager.close();
 		return sent;
 	}

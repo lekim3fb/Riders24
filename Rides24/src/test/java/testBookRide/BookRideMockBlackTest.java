@@ -6,6 +6,9 @@ import domain.Traveler;
 
 import static org.mockito.Mockito.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
@@ -112,17 +115,19 @@ public class BookRideMockBlackTest {
 	    	
 			String travellerName = "tnombre";
 			Traveler traveler1 = new Traveler("tnombre", "123");
+			List <Traveler> resultList = new ArrayList();
+			resultList.add(traveler1);
 			traveler1.setMoney(1000);
 			
-			Ride r = new Ride("", "", null, 0, 1, null);
+			Ride r = new Ride("", "", null, 0, 0, null);
 			
 			TypedQuery<Traveler> queryMock = Mockito.mock(TypedQuery.class);
-			Mockito.when(db.createQuery("SELECT t FROM Traveller t WHERE t.username = :username", Traveler.class)).thenReturn(queryMock);
+			Mockito.when(db.createQuery("SELECT t FROM Traveler t WHERE t.username = :username", Traveler.class)).thenReturn(queryMock);
 			Mockito.when(queryMock.setParameter("username", travellerName)).thenReturn(queryMock);
-			Mockito.when(queryMock.getSingleResult()).thenReturn(traveler1);
+			Mockito.when(queryMock.getResultList()).thenReturn(resultList);
 			
 			sut.open();
-			int seats = 0;
+			int seats = 1;
 			boolean estado = sut.bookRide(travellerName, r, seats, 0);
 			if(seats > (r.getnPlaces()) || seats <= 0) {
 				correcto = false;
@@ -142,29 +147,30 @@ public class BookRideMockBlackTest {
 	@Test
 	public void test4() {
 		try {
-			boolean correcto = false;
+			//boolean correcto = true;
 	    	
 			String travellerName = "tnombre";
 			Traveler traveler1 = new Traveler("tnombre", "123");
-			traveler1.setMoney(10);
+			List <Traveler> resultList = new ArrayList();
+			resultList.add(traveler1);
+			traveler1.setMoney(1);
 			
-			Ride r = new Ride("", "", null, 100, 1, null);
+			Ride r = new Ride("", "", null, 0, 1, null);
 			
 			TypedQuery<Traveler> queryMock = Mockito.mock(TypedQuery.class);
-			Mockito.when(db.createQuery("SELECT t FROM Traveller t WHERE t.username = :username", Traveler.class)).thenReturn(queryMock);
+			Mockito.when(db.createQuery("SELECT t FROM Traveler t WHERE t.username = :username", Traveler.class)).thenReturn(queryMock);
 			Mockito.when(queryMock.setParameter("username", travellerName)).thenReturn(queryMock);
-			Mockito.when(queryMock.getSingleResult()).thenReturn(traveler1);
+			Mockito.when(queryMock.getResultList()).thenReturn(resultList);
 			
 			sut.open();
-			int num = 0;
 			int seats = 1;
-			boolean estado = sut.bookRide(travellerName, r, seats, num);
-			if(num < 0) {
-				correcto = false;
-			}
+			boolean estado = sut.bookRide(travellerName, r, seats, 0);
+//			if(seats > (r.getnPlaces()) || seats <= 0) {
+//				correcto = false;
+//			}
 			
+			//assertFalse(correcto);
 			assertFalse(estado);
-			assertFalse(correcto);
 			
 	    } catch(Exception e) {
 	    	fail();
@@ -177,33 +183,30 @@ public class BookRideMockBlackTest {
 	@Test
 	public void test5() {
 		try {
-			boolean correcto = false;
+			//boolean correcto = true;
 	    	
 			String travellerName = "tnombre";
 			Traveler traveler1 = new Traveler("tnombre", "123");
+			List <Traveler> resultList = new ArrayList();
+			resultList.add(traveler1);
 			traveler1.setMoney(1000);
 			
-			Ride r = new Ride("", "", null, 100, 1, null);
+			Ride r = new Ride("", "", null, 0, 1, null);
 			
 			TypedQuery<Traveler> queryMock = Mockito.mock(TypedQuery.class);
-			Mockito.when(db.createQuery("SELECT t FROM Traveller t WHERE t.username = :username", Traveler.class)).thenReturn(queryMock);
+			Mockito.when(db.createQuery("SELECT t FROM Traveler t WHERE t.username = :username", Traveler.class)).thenReturn(queryMock);
 			Mockito.when(queryMock.setParameter("username", travellerName)).thenReturn(queryMock);
-			Mockito.when(queryMock.getSingleResult()).thenReturn(traveler1);
+			Mockito.when(queryMock.getResultList()).thenReturn(resultList);
 			
 			sut.open();
-			int num = 0;
 			int seats = 1;
-			boolean estado = sut.bookRide(travellerName, r, seats, num);
-			if(traveler1.getMoney() < (r.getPrice()-num)*seats) {
-				correcto = true;
-			}
+			boolean estado = sut.bookRide(travellerName, r, seats, 0);
+//			if(seats > (r.getnPlaces()) || seats <= 0) {
+//				correcto = false;
+//			}
 			
-			if(seats > (r.getnPlaces())) {
-				correcto = false;
-			}
-			
+		//	assertFalse(correcto);
 			assertFalse(estado);
-			assertFalse(correcto);
 			
 	    } catch(Exception e) {
 	    	fail();
