@@ -1,3 +1,2 @@
-gui.KotxeakKudeatuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
-==
-setVisible java.awt.Window#setVisible(Z)V
+domain.Ride#setPrice(D)V
+969d7a0d779327f2b9c1d486925c2bff

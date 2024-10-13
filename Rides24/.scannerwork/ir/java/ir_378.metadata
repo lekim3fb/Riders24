@@ -1,1 +1,4 @@
-domain.Complaint#getAurkeztua()Ljava/lang/Boolean;
+domain.Complaint#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ldomain/Booking;Ljava/lang/String;Z)V
+8c12bf67942d8a9b01420d3faaef5bea
+==
+<init> java.lang.Object#<init>()V

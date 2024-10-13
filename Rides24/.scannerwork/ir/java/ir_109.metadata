@@ -1,1 +1,2 @@
-domain.User#setPassword(Ljava/lang/String;)V
+gui.RegisterGUI#getBusinessLogic()LBLFacade;
+8b63f708979179b9b92fe352787ad194

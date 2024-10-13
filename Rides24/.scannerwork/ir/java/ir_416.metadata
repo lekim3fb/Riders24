@@ -1,3 +1,4 @@
-gui.AlertaSortuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
+domain.Admin2#<init>(Ljava/lang/String;Ljava/lang/String;)V
+c6a2f8b11e796390b0376b8dd4893b5b
 ==
-setVisible java.awt.Window#setVisible(Z)V
+setMota domain.Admin2#setMota(Ljava/lang/String;)V

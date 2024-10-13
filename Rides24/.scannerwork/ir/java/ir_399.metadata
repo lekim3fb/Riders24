@@ -1,1 +1,4 @@
-configuration.ConfigXML#getBusinessLogicName()Ljava/lang/String;
+gui.MoneyGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
+9183016a100c4645424bf01e10a93bbd
+==
+setVisible java.awt.Window#setVisible(Z)V

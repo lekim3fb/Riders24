@@ -1,5 +1,2 @@
-businessLogic.BLFacadeImplementation#bookRide(Ljava/lang/String;LRide;ID)Z
-==
-close dataAccess.DataAccess#close()V
-open dataAccess.DataAccess#open()V
-bookRide dataAccess.DataAccess#bookRide(Ljava/lang/String;LRide;ID)Z
+businesslogic.BLFacadeImplementation#getMotaByUsername(Ljava/lang/String;)Ljava/lang/String;
+28a2bd02e48333fdf74b4938860481e7

@@ -1,1 +1,2 @@
-domain.Ride#setPrice(D)V
+domain.Ride#setFrom(Ljava/lang/String;)V
+f02114a8ac5089b0fc4c90fe986d1dcf

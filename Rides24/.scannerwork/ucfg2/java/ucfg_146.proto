@@ -1,15 +1,15 @@
 
-:gui.RegisterGUI#getBusinessLogic()LbusinessLogic/BLFacade;\
-RC:/Users/saeze/Downloads/Rides24Complete-master/src/main/java/gui/RegisterGUI.java (("1*´
-1	 (y
+:gui.TravelerGUI#getBusinessLogic()Lbusinesslogic/BLFacade;U
+KC:/Users/mikel/git/Riders24Euken/Rides24/src/main/java/gui/TravelerGUI.java (("1*´
+1	 (y
 w
-	 (
-%0businessLogic.BLFacade"__id*G
+	 (
+%0businesslogic.BLFacade"__id*G
 
 __unknown_file (+*)
-gui.RegisterGUI"
+gui.TravelerGUI"
 appFacadeInterface"*
- (
+ (
 
-%0businessLogic.BLFacadeB"
-gui.RegisterGUIH
+%0businesslogic.BLFacadeB"
+gui.TravelerGUIH

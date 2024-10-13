@@ -1,1 +1,2 @@
-gui.KotxeaGehituGUI#getBusinessLogic()LBLFacade;
+dataaccess.DataAccess#getUser(Ljava/lang/String;)LUser;
+cf4437792264259e92c9761617468fa5

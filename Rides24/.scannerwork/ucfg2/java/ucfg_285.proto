@@ -1,17 +1,7 @@
 
-)domain.Car#getModeloa()Ljava/lang/String;W
-MC:/Users/saeze/Downloads/Rides24Complete-master/src/main/java/domain/Car.java, ,("1*˜
-1-	 -(c
-a
--	 -(
-%0java.lang.String"__id*7
-
-__unknown_file (*
-
-domain.Car"	
-modeloa"$
-- -(
-
-%0java.lang.StringB
-
-domain.CarH
+domain.Ride#getnPlaces()IQ
+GC:/Users/mikel/git/Riders24Euken/Rides24/src/main/java/domain/Ride.java~ ~("1*!
+1	 ("
+ (
+""B
+domain.RideHX

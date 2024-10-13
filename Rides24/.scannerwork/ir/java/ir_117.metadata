@@ -1,1 +1,4 @@
-domain.User#setIzoztatutakoDirua(D)V
+gui.DriverGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
+774c885e9ba898266a3822fd7a84ea2a
+==
+setVisible java.awt.Window#setVisible(Z)V

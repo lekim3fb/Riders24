@@ -1,1 +1,2 @@
-gui.CreateRideGUI#getBusinessLogic()LbusinessLogic/BLFacade;
+domain.Traveler#removeAlert(LAlert;)V
+e83891641dcdf3ada319bef65c5035fe

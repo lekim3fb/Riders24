@@ -1,1 +1,2 @@
-gui.ErreserbaOnartuGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
+domain.User#setErreklamaKop(I)V
+ed941b1bf22229be24255265d6b1f56b

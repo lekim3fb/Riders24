@@ -1,4 +1,4 @@
-dataAccess.DataAccess#getBookedRides(Ljava/lang/String;)Ljava/util/List;
+domain.Traveler#<init>(Ljava/lang/String;Ljava/lang/String;)V
+31dbe71b952fc9f2b546f5e044af5e5f
 ==
-getTraveler dataAccess.DataAccess#getTraveler(Ljava/lang/String;)Ldomain/Traveler;
-getBookedRides domain.Traveler#getBookedRides()Ljava/util/List;
+<init> domain.User#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V

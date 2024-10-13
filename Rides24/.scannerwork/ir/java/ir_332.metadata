@@ -1,1 +1,4 @@
-gui.MainGUI#setBussinessLogic(LBLFacade;)V
+gui.ArazoaGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
+342038e7f52a3f41f272cf85f27ec183
+==
+setVisible java.awt.Window#setVisible(Z)V

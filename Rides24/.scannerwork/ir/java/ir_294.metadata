@@ -1,1 +1,2 @@
-domain.Ride#toString()Ljava/lang/String;
+domain.Ride#getDate()Ljava/util/Date;
+c40b915eaca6124c311d7de8eec1b251

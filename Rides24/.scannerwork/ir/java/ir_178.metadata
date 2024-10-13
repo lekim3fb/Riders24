@@ -1,3 +1,10 @@
-exceptions.RideAlreadyExistException#<init>()V
+gui.AlertakKudeatuGUI#refreshTable(Ljava/lang/String;)V
+44ed9916f7a13365763e62bdd3531bfb
+java.text.SimpleDateFormat#<init>(Ljava/lang/String;)V
+java.text.SimpleDateFormat#instance-init#
+java.text.DateFormat#format(Ljava/util/Date;)Ljava/lang/String;
 ==
-<init> java.lang.Exception#<init>()V
+getAlertsByUsername businesslogic.BLFacade#getAlertsByUsername(Ljava/lang/String;)Ljava/util/List;
+addRow javax.swing.table.DefaultTableModel#addRow([Ljava/lang/Object;)V
+getModel javax.swing.JTable#getModel()Ljavax/swing/table/TableModel;
+setRowCount javax.swing.table.DefaultTableModel#setRowCount(I)V

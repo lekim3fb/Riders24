@@ -1,1 +1,4 @@
-gui.BaloraGUI#getBusinessLogic()LbusinessLogic/BLFacade;
+gui.DeskontuKudeatuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
+470c1ae7af43d0ca6ef5c62a4b3bfb23
+==
+setVisible java.awt.Window#setVisible(Z)V

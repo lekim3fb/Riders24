@@ -1,1 +1,2 @@
-configuration.ConfigXML#getUser()Ljava/lang/String;
+domain.Complaint#getAurkeztua()Ljava/lang/Boolean;
+8972ae640928987778abb6b69774d68c

@@ -1,1 +1,2 @@
-domain.Admin2#getMota()Ljava/lang/String;
+configuration.ConfigXML#getBusinessLogicPort()Ljava/lang/String;
+0dd9c4f4d4c1255a9313c113cf5e8019

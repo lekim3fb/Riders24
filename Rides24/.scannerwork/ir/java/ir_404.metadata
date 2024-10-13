@@ -1,3 +1,2 @@
-domain.Admin2#<init>(Ljava/lang/String;Ljava/lang/String;)V
-==
-setMota domain.Admin2#setMota(Ljava/lang/String;)V
+configuration.ConfigXML#getPassword()Ljava/lang/String;
+e922e516e3f19471f44629b1d6a1dafd

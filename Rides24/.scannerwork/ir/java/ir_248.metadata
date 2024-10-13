@@ -1,1 +1,4 @@
-gui.AlertakKudeatuGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
+dataaccess.ObjectdbManagerServer#instance-init#
+c8c9401fc3eda35cf7207f5c53751bef
+javax.swing.JPanel#<init>()V
+javax.swing.JPanel#instance-init#

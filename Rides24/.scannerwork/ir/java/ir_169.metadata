@@ -1,1 +1,4 @@
-gui.AlertaAurkituakGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
+gui.AdminGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
+b3b45e05707343d9fc5d3677e96c5461
+==
+setVisible java.awt.Window#setVisible(Z)V

@@ -1,1 +1,4 @@
-gui.EzabatuGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
+domain.Driver#toString()Ljava/lang/String;
+21916472d2c4495e304fbbf527214c27
+==
+toString domain.User#toString()Ljava/lang/String;

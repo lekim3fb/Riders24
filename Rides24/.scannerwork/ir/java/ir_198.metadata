@@ -1,5 +1,2 @@
-businessLogic.BLFacadeImplementation#initializeBD()V
-==
-initializeDB dataAccess.DataAccess#initializeDB()V
-close dataAccess.DataAccess#close()V
-open dataAccess.DataAccess#open()V
+businesslogic.BLFacadeImplementation#createRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IFLjava/lang/String;)LRide;
+ca4238cb6bc7ae4dea7739dafc5b39c0

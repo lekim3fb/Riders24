@@ -1,1 +1,2 @@
-domain.User#instance-init#
+gui.LoginGUI#getBusinessLogic()LBLFacade;
+728e013236fb0d0e3dffb578b8eea76c

@@ -1,5 +1,4 @@
-businessLogic.BLFacadeImplementation#getRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;
+businesslogic.BLFacadeImplementation#<init>(LDataAccess;)V
+d0c76a8831c049835b5a9f1d322cf41f
 ==
-getRides dataAccess.DataAccess#getRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;
-close dataAccess.DataAccess#close()V
-open dataAccess.DataAccess#open()V
+println java.io.PrintStream#println(Ljava/lang/String;)V

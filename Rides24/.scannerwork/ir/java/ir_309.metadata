@@ -1,1 +1,2 @@
-domain.Alert#setTo(Ljava/lang/String;)V
+gui.KotxeakKudeatuGUI#setBussinessLogic(LBLFacade;)V
+6b1804ba3a74c6c17c26f42a8d33478e

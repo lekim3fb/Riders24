@@ -1,1 +1,5 @@
-domain.Ride#setDate(Ljava/util/Date;)V
+dataaccess.DataAccess#getComplaintsByBook(Ldomain/Booking;)Ldomain/Complaint;
+f40c0760f31a2cd3ff77d32ff4c04b9a
+==
+isEmpty java.util.List#isEmpty()Z
+get java.util.List#get(I)Ljava/lang/Object;

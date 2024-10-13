@@ -1,2 +1,2 @@
-dataAccess.DataAccess#isRegistered(Ljava/lang/String;Ljava/lang/String;)Z
-java.lang.String#compareTo(Ljava/lang/String;)I
+gui.BookGUI#setBussinessLogic(LBLFacade;)V
+2e5b878041c8def1d629e3cfab4fa361

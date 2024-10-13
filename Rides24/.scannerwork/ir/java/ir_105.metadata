@@ -1,1 +1,2 @@
-domain.User#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+gui.LoginGUI#setBusinessLogic(LBLFacade;)V
+6ac24f99affbeb30b175623cebb0fc8e

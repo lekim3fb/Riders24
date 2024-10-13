@@ -1,5 +1,2 @@
-businessLogic.BLFacadeImplementation#updateAlertaAurkituak(Ljava/lang/String;)Z
-==
-close dataAccess.DataAccess#close()V
-open dataAccess.DataAccess#open()V
-updateAlertaAurkituak dataAccess.DataAccess#updateAlertaAurkituak(Ljava/lang/String;)Z
+businesslogic.BLFacadeImplementation#deleteUser(LUser;)V
+ebd416166275d291938ed04fc1b0dfac

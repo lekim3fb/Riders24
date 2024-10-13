@@ -1,3 +1,2 @@
-domain.Driver#removeCar(Ldomain/Car;)V
-==
-remove java.util.List#remove(Ljava/lang/Object;)Z
+domain.User#getBalkop()I
+1a61e97e6a73071d62523e83eb60bbba

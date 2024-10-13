@@ -1,3 +1,2 @@
-gui.KotxeaGehituGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
-==
-setVisible java.awt.Window#setVisible(Z)V
+dataaccess.DataAccess#getDriver(Ljava/lang/String;)LDriver;
+b2ed3527b2ed4b33d185b2e8d2a7d784

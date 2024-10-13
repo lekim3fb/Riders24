@@ -1,3 +1,2 @@
-domain.Traveler#<init>(Ljava/lang/String;Ljava/lang/String;)V
-==
-<init> domain.User#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+exceptions.RideMustBeLaterThanTodayException#instance-init#
+b966d3412a073575269d38864b33515f

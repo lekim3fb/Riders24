@@ -1,1 +1,2 @@
-domain.Ride#getRideNumber()Ljava/lang/Integer;
+dataaccess.DataAccess#getAllMovements(LUser;)Ljava/util/List;
+65a4a740cbe76f52a581fe324695d894

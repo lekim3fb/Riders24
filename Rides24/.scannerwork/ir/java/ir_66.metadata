@@ -1,1 +1,4 @@
-exceptions.RideMustBeLaterThanTodayException#instance-init#
+domain.Driver#equals(Ljava/lang/Object;)Z
+a2262352a77837f5a3d447057addddcd
+==
+equals domain.User#equals(Ljava/lang/Object;)Z

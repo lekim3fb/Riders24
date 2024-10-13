@@ -1,3 +1,4 @@
-gui.EzabatuGUI#instance-init#
-java.text.DecimalFormat#instance-init#
-java.text.DecimalFormat#<init>(Ljava/lang/String;)V
+domain.Driver#<init>(Ljava/lang/String;Ljava/lang/String;)V
+59a0f83baaa113bf6bf2c71901503cee
+==
+<init> domain.User#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V

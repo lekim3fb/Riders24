@@ -1,4 +1,2 @@
-domain.Driver#removeRide(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)LRide;
-==
-println java.io.PrintStream#println([C)V
-println java.io.PrintStream#println(Ljava/lang/String;)V
+domain.User#setIzoztatutakoDirua(D)V
+8a5771a64cc07189072606e6ea1d9387

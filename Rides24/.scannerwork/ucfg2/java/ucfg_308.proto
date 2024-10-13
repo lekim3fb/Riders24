@@ -1,15 +1,7 @@
 
-%domain.Ride#getDate()Ljava/util/Date;X
-NC:/Users/saeze/Downloads/Rides24Complete-master/src/main/java/domain/Ride.javaq q("1*’
-1r	 r(_
-]
-r	 r(
-%0java.util.Date"__id*5
-
-__unknown_file (*
-domain.Ride"
-date""
-r r(
-
-%0java.util.DateB
-domain.RideH
+domain.Alert#isFound()ZR
+HC:/Users/mikel/git/Riders24Euken/Rides24/src/main/java/domain/Alert.javaL L("1*!
+1M	 M("
+M M(
+""B
+domain.AlertHX

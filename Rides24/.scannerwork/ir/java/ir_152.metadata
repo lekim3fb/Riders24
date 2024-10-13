@@ -1,1 +1,4 @@
-gui.ApplicationLauncher#instance-init#
+exceptions.RideAlreadyExistException#<init>()V
+5f7a61dcbecf326f4b86fce14371f510
+==
+<init> java.lang.Exception#<init>()V

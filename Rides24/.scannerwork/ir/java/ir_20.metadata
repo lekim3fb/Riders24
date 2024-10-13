@@ -1,4 +1,2 @@
-dataAccess.DataAccess#getDiscount(Ljava/lang/String;)Ldomain/Discount;
-==
-isEmpty java.util.List#isEmpty()Z
-get java.util.List#get(I)Ljava/lang/Object;
+domain.Traveler#setAlerts(Ljava/util/List;)V
+243d7184202bcc712b67a476ab7bbab9

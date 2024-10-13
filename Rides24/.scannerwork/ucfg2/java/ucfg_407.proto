@@ -1,22 +1,18 @@
 
-*gui.MoneyGUI#isNumber(Ljava/lang/String;)ZY
-OC:/Users/saeze/Downloads/Rides24Complete-master/src/main/java/gui/MoneyGUI.java# #("3*!
-2&
- &("
-& &(
-""*Ã
-3% %(	∑
-¥
-% %(
-%0double"1java.lang.Double#parseDouble(Ljava/lang/String;)D*0
+>configuration.ConfigXML#getInstance()Lconfiguration/ConfigXML;_
+SC:/Users/mikel/git/Riders24Euken/Rides24/src/main/java/configuration/ConfigXML.javaè è($"1*Ω
+1
+ê	 ê(}
+{
+
+ê	 ê(
+%0configuration.ConfigXML"__id*H
 
-__unknown_file ("
-java.lang.Double*5
-
-__unknown_file (
-
-strjava.lang.String*
-2:#
-# #($
-strjava.lang.StringB
-gui.MoneyGUIX
+__unknown_file (,**
+configuration.ConfigXML"
+theInstance"-
+
+ê ê(
+
+%0configuration.ConfigXMLB"
+configuration.ConfigXMLH

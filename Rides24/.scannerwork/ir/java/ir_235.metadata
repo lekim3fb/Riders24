@@ -1,5 +1,2 @@
-businessLogic.BLFacadeImplementation#updateAlert(LAlert;)V
-==
-updateAlert dataAccess.DataAccess#updateAlert(LAlert;)V
-close dataAccess.DataAccess#close()V
-open dataAccess.DataAccess#open()V
+businesslogic.BLFacadeImplementation#getUserList()Ljava/util/List;
+e943ba87eb986275b523fee3525fe13d

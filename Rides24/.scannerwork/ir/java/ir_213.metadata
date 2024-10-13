@@ -1,5 +1,2 @@
-businessLogic.BLFacadeImplementation#updateTraveler(Ldomain/Traveler;)V
-==
-close dataAccess.DataAccess#close()V
-open dataAccess.DataAccess#open()V
-updateTraveler dataAccess.DataAccess#updateTraveler(Ldomain/Traveler;)V
+businesslogic.BLFacadeImplementation#getAllMovements(LUser;)Ljava/util/List;
+180624469f68030c2a5e5ed6f98f463a

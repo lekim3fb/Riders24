@@ -1,3 +1,2 @@
-domain.Traveler#toString()Ljava/lang/String;
-==
-toString domain.User#toString()Ljava/lang/String;
+domain.Discount#getKodea()Ljava/lang/String;
+4c3380514382dfade629201ca22782b9

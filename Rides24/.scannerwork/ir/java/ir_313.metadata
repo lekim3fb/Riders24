@@ -1,1 +1,2 @@
-domain.Alert#setTraveler(LTraveler;)V
+domain.Alert#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;LTraveler;)V
+ddbbf3284d9857bf012fd6463c653d14

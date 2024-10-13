@@ -1,1 +1,2 @@
-domain.Complaint#setAurkeztua(Ljava/lang/Boolean;)V
+domain.Complaint#getId()I
+7bba292361096b6e57fbcfaf41a0af76

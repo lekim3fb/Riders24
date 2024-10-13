@@ -1,1 +1,2 @@
-gui.TravelerGUI#getBusinessLogic()LbusinessLogic/BLFacade;
+domain.Car#getMatrikula()Ljava/lang/String;
+c52ab1daac2f209e10cdae3962e34052

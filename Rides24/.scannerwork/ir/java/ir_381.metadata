@@ -1,1 +1,2 @@
-domain.Complaint#setEgoera(Ljava/lang/String;)V
+domain.Complaint#getNor()Ljava/lang/String;
+a131790d723f8783ab83960f496072b2

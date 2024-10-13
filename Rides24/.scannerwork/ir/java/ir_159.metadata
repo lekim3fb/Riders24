@@ -1,5 +1,2 @@
-testOperations.TestBusinessLogic#addDriverWithRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IF)Ldomain/Driver;
-==
-addDriverWithRide testOperations.TestDataAccess#addDriverWithRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;IF)Ldomain/Driver;
-close testOperations.TestDataAccess#close()V
-open testOperations.TestDataAccess#open()V
+gui.TravelerGUI#getBusinessLogic()Lbusinesslogic/BLFacade;
+6bac51eb7ea76b1d09c5ee301e42f743

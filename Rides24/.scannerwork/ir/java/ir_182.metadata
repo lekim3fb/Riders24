@@ -1,6 +1,4 @@
-gui.FindRidesGUI#paintDaysWithEvents(LJCalendar;Ljava/util/List;Ljava/awt/Color;)V
-java.util.Calendar#setTime(Ljava/util/Date;)V
+domain.Car#<init>(Ljava/lang/String;Ljava/lang/String;I)V
+1573347187ae3797ec576105fd5916b0
 ==
-setBackground java.awt.Component#setBackground(Ljava/awt/Color;)V
-set java.util.Calendar#set(II)V
-get java.util.Calendar#get(I)I
+<init> java.lang.Object#<init>()V

@@ -1,16 +1,15 @@
 
-.domain.Ride#getRideNumber()Ljava/lang/Integer;X
-NC:/Users/saeze/Downloads/Rides24Complete-master/src/main/java/domain/Ride.java1 1("1*ž
-12	 2(h
-f
-2	 2(
-%0java.lang.Integer"__id*;
+(domain.Alert#getFrom()Ljava/lang/String;R
+HC:/Users/mikel/git/Riders24Euken/Rides24/src/main/java/domain/Alert.java, ,("1*—
+1-	 -(b
+`
+-	 -(
+%0java.lang.String"__id*6
 
-__unknown_file (*
-domain.Ride"
-
-rideNumber"%
-2 2(
-
-%0java.lang.IntegerB
-domain.RideH
+__unknown_file (*
+domain.Alert"
+from"$
+- -(
+
+%0java.lang.StringB
+domain.AlertH

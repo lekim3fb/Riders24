@@ -1,2 +1,5 @@
-domain.IntegerAdapter#marshal(Ljava/lang/Integer;)Ljava/lang/String;
-java.lang.Integer#toString()Ljava/lang/String;
+testOperations.TestDataAccess#existRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Z
+e582536823d89f534499a844d3971e06
+==
+doesRideExists domain.Driver#doesRideExists(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Z
+println java.io.PrintStream#println(Ljava/lang/String;)V

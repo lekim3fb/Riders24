@@ -1,1 +1,6 @@
-gui.RegisterGUI#setBussinessLogic(LbusinessLogic/BLFacade;)V
+testOperations.TestBusinessLogic#existRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Z
+d483349da3bc179a91ffd7060d574b99
+==
+close testOperations.TestDataAccess#close()V
+existRide testOperations.TestDataAccess#existRide(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Z
+open testOperations.TestDataAccess#open()V

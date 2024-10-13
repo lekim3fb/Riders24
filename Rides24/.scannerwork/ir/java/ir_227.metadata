@@ -1,5 +1,2 @@
-businessLogic.BLFacadeImplementation#deleteDiscount(Ldomain/Discount;)V
-==
-close dataAccess.DataAccess#close()V
-open dataAccess.DataAccess#open()V
-deleteDiscount dataAccess.DataAccess#deleteDiscount(Ldomain/Discount;)V
+businesslogic.BLFacadeImplementation#erreklamazioaBidali(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;LBooking;Ljava/lang/String;Z)Z
+994491c3eb04c2da9f765bc6d7ec60db

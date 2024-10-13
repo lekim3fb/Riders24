@@ -1,3 +1,2 @@
-gui.AlertaAurkituakGUI#closeButton_actionPerformed(Ljava/awt/event/ActionEvent;)V
-==
-setVisible java.awt.Window#setVisible(Z)V
+testGauzatuEragiketa.gauzatuEragiketaMockBlackTest#<init>()V
+a37a619ddba5e884e89c977cbb87f3b2

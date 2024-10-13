@@ -1,1 +1,2 @@
-domain.Ride#getPrice()D
+domain.Ride#getFrom()Ljava/lang/String;
+824700d6a52ce0fedbcbb46658afa071

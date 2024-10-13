@@ -1,1 +1,4 @@
-gui.KotxeaGehituGUI#instance-init#
+dataaccess.DataAccess#close()V
+9e3a5c8e8dd967573da2eefe7a44ff32
+==
+println java.io.PrintStream#println(Ljava/lang/String;)V

@@ -1,3 +1,2 @@
-domain.Booking#prezioaKalkulatu()D
-==
-getPrice domain.Ride#getPrice()D
+domain.Booking#getRide()Ldomain/Ride;
+4b8d6f891d5a956d39f1f27c27cec475

@@ -1,3 +1,2 @@
-testOperations.TestDataAccess#<init>()V
-==
-println java.io.PrintStream#println(Ljava/lang/String;)V
+domain.Discount#setActive(Z)V
+793122b21f568bfae93f54db11bbebf0

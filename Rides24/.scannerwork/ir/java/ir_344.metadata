@@ -1,1 +1,8 @@
-domain.Booking#setSeats(I)V
+gui.MainGUI#paintAgain()V
+aa8f26f349eb11c7974a8cb3d223ebb1
+java.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;
+java.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;
+==
+setText javax.swing.JLabel#setText(Ljava/lang/String;)V
+setText javax.swing.AbstractButton#setText(Ljava/lang/String;)V
+setTitle java.awt.Frame#setTitle(Ljava/lang/String;)V

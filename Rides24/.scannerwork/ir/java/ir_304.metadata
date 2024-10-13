@@ -1,1 +1,2 @@
-domain.Alert#getAlertNumber()Ljava/lang/Integer;
+domain.Ride#toString()Ljava/lang/String;
+2700168f148805b308df8a639f3e80ad

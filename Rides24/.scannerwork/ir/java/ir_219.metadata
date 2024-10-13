@@ -1,5 +1,2 @@
-businessLogic.BLFacadeImplementation#cancelRide(LRide;)V
-==
-cancelRide dataAccess.DataAccess#cancelRide(LRide;)V
-close dataAccess.DataAccess#close()V
-open dataAccess.DataAccess#open()V
+businesslogic.BLFacadeImplementation#updateUser(LUser;)V
+c2c974d61b5c4547717ac43dc0be05d2

@@ -1,1 +1,2 @@
-domain.Alert#setAlertNumber(Ljava/lang/Integer;)V
+domain.Ride#setnPlaces(I)V
+c07e08be4f537552c0d7bf3deed8822a

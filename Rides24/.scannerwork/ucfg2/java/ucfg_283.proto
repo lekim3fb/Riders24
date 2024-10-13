@@ -1,17 +1,15 @@
 
-+domain.Car#getMatrikula()Ljava/lang/String;W
-MC:/Users/saeze/Downloads/Rides24Complete-master/src/main/java/domain/Car.java$ $("1*š
-1%	 %(e
-c
-%	 %(
-%0java.lang.String"__id*9
+%domain.Ride#getDate()Ljava/util/Date;Q
+GC:/Users/mikel/git/Riders24Euken/Rides24/src/main/java/domain/Ride.javaq q("1*’
+1r	 r(_
+]
+r	 r(
+%0java.util.Date"__id*5
 
-__unknown_file (*
-
-domain.Car"
-	matrikula"$
-% %(
-
-%0java.lang.StringB
-
-domain.CarH
+__unknown_file (*
+domain.Ride"
+date""
+r r(
+
+%0java.util.DateB
+domain.RideH

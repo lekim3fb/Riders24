@@ -1,1 +1,4 @@
-domain.IntegerAdapter#instance-init#
+testOperations.TestDataAccess#close()V
+ba2adc8f6686dac262c25f54c47ccfba
+==
+println java.io.PrintStream#println(Ljava/lang/String;)V

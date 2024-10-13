@@ -1,5 +1,2 @@
-businessLogic.BLFacadeImplementation#getActualMoney(Ljava/lang/String;)D
-==
-getActualMoney dataAccess.DataAccess#getActualMoney(Ljava/lang/String;)D
-close dataAccess.DataAccess#close()V
-open dataAccess.DataAccess#open()V
+businesslogic.BLFacadeImplementation#getThisMonthDatesWithRides(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;)Ljava/util/List;
+6d6b0ebe0a0b7da1a6219dcec06ea61d

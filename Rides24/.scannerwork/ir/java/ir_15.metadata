@@ -1,1 +1,4 @@
-dataAccess.DataAccess#getAllMovements(Ldomain/User;)Ljava/util/List;
+domain.Traveler#instance-init#
+4e4a2723119e9c905a2a2b0870ffd7fb
+java.util.ArrayList#<init>()V
+java.util.Vector#<init>()V

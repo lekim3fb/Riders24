@@ -1,1 +1,4 @@
-domain.Complaint#getId()I
+gui.ErreklamazioakGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
+5978554f71193525eff22ecc33db24f7
+==
+setVisible java.awt.Window#setVisible(Z)V

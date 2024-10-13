@@ -1,1 +1,2 @@
-configuration.ConfigXML#getLocale()Ljava/lang/String;
+domain.Complaint#getBooking()Ldomain/Booking;
+de590a0186a0c5796cb6576d9ec37e10

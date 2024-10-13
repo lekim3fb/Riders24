@@ -1,5 +1,2 @@
-businessLogic.BLFacadeImplementation#gauzatuEragiketa(Ljava/lang/String;DZ)Z
-==
-close dataAccess.DataAccess#close()V
-open dataAccess.DataAccess#open()V
-gauzatuEragiketa dataAccess.DataAccess#gauzatuEragiketa(Ljava/lang/String;DZ)Z
+businesslogic.BLFacadeImplementation#getTraveler(Ljava/lang/String;)LTraveler;
+5307e875ab84d25050ac7c576fb0f483

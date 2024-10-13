@@ -1,1 +1,2 @@
-gui.AlertaSortuGUI#getBusinessLogic()LBLFacade;
+configuration.ConfigXML#isDatabaseInitialized()Z
+1d2d8b1db2d1d2eaa076042b7bdc4955
