@@ -24,7 +24,7 @@ import exceptions.RideMustBeLaterThanTodayException;
  * It implements the data access to the objectDb database
  */
 public class DataAccess {
-
+//jajja
 	private EntityManager db;
 	private EntityManagerFactory emf;
 
