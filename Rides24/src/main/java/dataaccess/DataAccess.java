@@ -389,8 +389,7 @@ public class DataAccess {
 	}
 
 	public Traveler getTraveler(String erab) {
-		TypedQuery<Traveler> query = db.createQuery("SELECT t FROM Traveler t WHERE t.username = :username",
-				Traveler.class);
+		TypedQuery<Traveler> query = db.createQuery("SELECT t FROM Traveler t WHERE t.username = :username", Traveler.class);
 		query.setParameter("username", erab);
 		List<Traveler> resultList = query.getResultList();
 		if (resultList.isEmpty()) {
@@ -490,7 +489,7 @@ public class DataAccess {
 			return false;
 		}
 	}
-	private User operacionCartera(String username, double amount, boolean deposit) {
+	private User operacionCartera(String username, double amount, boolean deposit) { //Editado por Mikel
 		User user = getUser(username);
 			double currentMoney = user.getMoney();
 			if (deposit) {
@@ -733,12 +732,11 @@ public class DataAccess {
 		return era;
 	}
 
-	public boolean erreklamazioaBidali(String nor, String nori, Date gaur, Booking booking, String textua,
-			boolean aurk) {
+	public boolean erreklamazioaBidali(ErreklamazioaBidaliParameter parameterObject) { //Editado por Mikel
 		try {
 			db.getTransaction().begin();
 
-			Complaint erreklamazioa = new Complaint(nor, nori, gaur, booking, textua, aurk);
+			Complaint erreklamazioa = new Complaint(parameterObject.getNor(), parameterObject.getNori(), parameterObject.getGaur(), parameterObject.getBooking(), parameterObject.getTextua(), parameterObject.isAurk());
 			db.persist(erreklamazioa);
 			db.getTransaction().commit();
 			return true;
