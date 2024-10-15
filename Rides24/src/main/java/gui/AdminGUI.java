@@ -76,7 +76,7 @@ public class AdminGUI extends JFrame {
 		jButtonItxi = new JButton();
 		jButtonItxi.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				jbuttonclose_actionperformed(e);
+				jButtonClose_actionPerformed(e);
 			}
 		});
 		jButtonItxi.setText(ResourceBundle.getBundle("Etiquetas").getString("EgoeraGUI.Close"));
@@ -93,7 +93,7 @@ public class AdminGUI extends JFrame {
 
 	}
 
-	private void jbuttonclose_actionperformed(ActionEvent e) {
+	private void jButtonClose_actionPerformed(ActionEvent e) {
 		this.setVisible(false);
 	}
 
