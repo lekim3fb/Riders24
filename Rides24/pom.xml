@@ -50,7 +50,7 @@
 	<sonar.organization>lekim3fb</sonar.organization>
 	<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	<sonar.projectKey>lekim3fb_ridesmaven</sonar.projectKey>
-	<sonar.login>36fbe1ce4d50dfcce1b86d3fdd836c2d04394a0e</sonar.login>
+	<sonar.login>eb7e0e1d0a8d946d1c2ae6f87353384254247d6e</sonar.login>
 </properties>
 
 <!-- https://mvnrepository.com/artifact/junit/junit -->
