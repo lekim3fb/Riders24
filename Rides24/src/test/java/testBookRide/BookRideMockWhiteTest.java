@@ -89,7 +89,7 @@ public class BookRideMockWhiteTest {
 			TypedQuery<Traveler> queryMock = Mockito.mock(TypedQuery.class);
 			Mockito.when(db.createQuery("SELECT t FROM Traveler t WHERE t.username = :username", Traveler.class)).thenReturn(queryMock);
 			Mockito.when(queryMock.setParameter("username", travellerName)).thenReturn(queryMock);
-			Mockito.when(queryMock.getSingleResult()).thenReturn(null);
+			Mockito.when(queryMock.getResultList()).thenReturn(null);
 			
 			sut.open();
 			boolean estado = sut.bookRide(travellerName, null, 0, 0);
@@ -121,7 +121,11 @@ public class BookRideMockWhiteTest {
 			TypedQuery<Traveler> queryMock = Mockito.mock(TypedQuery.class);
 			Mockito.when(db.createQuery("SELECT t FROM Traveler t WHERE t.username = :username", Traveler.class)).thenReturn(queryMock);
 			Mockito.when(queryMock.setParameter("username", travellerName)).thenReturn(queryMock);
+<<<<<<< HEAD
 			Mockito.when(queryMock.getResultList()).thenReturn(resultList);
+=======
+			Mockito.when(queryMock.getResultList());
+>>>>>>> branch 'master' of https://github.com/euken13/Riders24.git
 			
 			sut.open();
 			int seats = 1;
@@ -155,7 +159,7 @@ public class BookRideMockWhiteTest {
 			TypedQuery<Traveler> queryMock = Mockito.mock(TypedQuery.class);
 			Mockito.when(db.createQuery("SELECT t FROM Traveler t WHERE t.username = :username", Traveler.class)).thenReturn(queryMock);
 			Mockito.when(queryMock.setParameter("username", travellerName)).thenReturn(queryMock);
-			Mockito.when(queryMock.getSingleResult()).thenReturn(traveler1);
+			Mockito.when(queryMock.getResultList());
 			
 			sut.open();
 			int num = 0;
@@ -188,9 +192,9 @@ public class BookRideMockWhiteTest {
 			Ride r = new Ride("", "", null, 100, 1, null);
 			
 			TypedQuery<Traveler> queryMock = Mockito.mock(TypedQuery.class);
-			Mockito.when(db.createQuery("SELECT t FROM Traveller t WHERE t.username = :username", Traveler.class)).thenReturn(queryMock);
+			Mockito.when(db.createQuery("SELECT t FROM Traveler t WHERE t.username = :username", Traveler.class)).thenReturn(queryMock);
 			Mockito.when(queryMock.setParameter("username", travellerName)).thenReturn(queryMock);
-			Mockito.when(queryMock.getSingleResult()).thenReturn(traveler1);
+			Mockito.when(queryMock.getResultList());
 			
 			sut.open();
 			int num = 0;

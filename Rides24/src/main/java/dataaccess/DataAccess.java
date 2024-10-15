@@ -212,11 +212,7 @@ public class DataAccess {
 
 	/**
 	 * This method creates a ride for a driver
-	 * 
-	 * @param from        the origin location of a ride
-	 * @param to          the destination location of a ride
-	 * @param date        the date of the ride
-	 * @param nPlaces     available seats
+	 * @param parameterObject TODO
 	 * @param driverEmail to which ride is added
 	 * 
 	 * @return the created ride, or null, or an exception
@@ -224,26 +220,28 @@ public class DataAccess {
 	 * @throws RideAlreadyExistException         if the same ride already exists for
 	 *                                           the driver
 	 */
-	public Ride createRide(String from, String to, Date date, int nPlaces, float price, String driverName)
+	public Ride createRide(CreateRideParameter parameterObject)
 			throws RideAlreadyExistException, RideMustBeLaterThanTodayException {
 		System.out.println(
-				">> DataAccess: createRide=> from= " + from + " to= " + to + " driver=" + driverName + " date " + date);
-		if (driverName==null) return null;
+				">> DataAccess: createRide=> from= " + parameterObject.getFrom() + " to= " + parameterObject.getTo() + " driver=" + parameterObject.getDriverName() 
+				+ " date " + parameterObject.getDate());
+		if (parameterObject.getDriverName()==null) return null;
 		try {
-			if (new Date().compareTo(date) > 0) {
+			if (new Date().compareTo(parameterObject.getDate()) > 0) {
 				System.out.println("ppppp");
 				throw new RideMustBeLaterThanTodayException(
 						ResourceBundle.getBundle("Etiquetas").getString("CreateRideGUI.ErrorRideMustBeLaterThanToday"));
 			}
 
 			db.getTransaction().begin();
-			Driver driver = db.find(Driver.class, driverName);
-			if (driver.doesRideExists(from, to, date)) {
+			Driver driver = db.find(Driver.class, parameterObject.getDriverName());
+			if (driver.doesRideExists(parameterObject.getFrom(), parameterObject.getTo(), parameterObject.getDate())) {
 				db.getTransaction().commit();
 				throw new RideAlreadyExistException(
 						ResourceBundle.getBundle("Etiquetas").getString("DataAccess.RideAlreadyExist"));
 			}
-			Ride ride = driver.addRide(from, to, date, nPlaces, price);
+			Ride ride = driver.addRide(parameterObject.getFrom(), parameterObject.getTo(), parameterObject.getDate(), 
+					parameterObject.getnPlaces(), parameterObject.getPrice());
 			// next instruction can be obviated
 			db.persist(driver);
 			db.getTransaction().commit();
@@ -479,7 +477,7 @@ public class DataAccess {
 	public boolean gauzatuEragiketa(String username, double amount, boolean deposit) {
 		try {
 			db.getTransaction().begin();
-			User user = operacionCartera(username, amount, deposit);
+			User user = hacerOperacion(username, amount, deposit);
 				db.merge(user);
 				db.getTransaction().commit();
 				return true;
@@ -489,7 +487,11 @@ public class DataAccess {
 			return false;
 		}
 	}
+<<<<<<< HEAD
 	private User operacionCartera(String username, double amount, boolean deposit) { //Editado por Mikel
+=======
+	private User hacerOperacion(String username, double amount, boolean deposit) {
+>>>>>>> branch 'master' of https://github.com/euken13/Riders24.git
 		User user = getUser(username);
 			double currentMoney = user.getMoney();
 			if (deposit) {
@@ -518,40 +520,45 @@ public class DataAccess {
 
 	public boolean bookRide(String username, Ride ride, int seats, double desk) { //Euken 
 		try {
-			db.getTransaction().begin();
-			Traveler traveler = getTraveler(username);
-			if (traveler == null) {
-				return false;
-			}
-
-			if (ride.getnPlaces() < seats) {
-				return false;
-			}
-
-			double ridePriceDesk = (ride.getPrice() - desk) * seats;
-			double availableBalance = traveler.getMoney();
-			if (availableBalance < ridePriceDesk) {
-				return false;
-			}
-
-			Booking booking = new Booking(ride, traveler, seats);
-			booking.setTraveler(traveler);
-			booking.setDeskontua(desk);
-			db.persist(booking);
-
-			ride.setnPlaces(ride.getnPlaces() - seats);
-			traveler.addBookedRide(booking);
-			traveler.setMoney(availableBalance - ridePriceDesk);
-			traveler.setIzoztatutakoDirua(traveler.getIzoztatutakoDirua() + ridePriceDesk);
-			db.merge(ride);
-			db.merge(traveler);
-			db.getTransaction().commit();
-			return true;
+			return validBook(username, ride, seats, desk);
 		} catch (Exception e) {
 			e.printStackTrace();
 			db.getTransaction().rollback();
 			return false;
 		}
+	}
+	
+	private boolean validBook(String username, Ride ride, int seats, double desk) {
+		db.getTransaction().begin();
+		Traveler traveler = getTraveler(username);
+		if (traveler == null || ride.getnPlaces() < seats) {
+			return false;
+		}
+		
+		double ridePriceDesk = (ride.getPrice() - desk) * seats;
+		double availableBalance = traveler.getMoney();
+		if (availableBalance < ridePriceDesk) {
+			return false;
+		}
+
+		makeBook(ride, seats, desk, traveler, ridePriceDesk, availableBalance);
+		return true;
+	}
+
+	private void makeBook(Ride ride, int seats, double desk, Traveler traveler, double ridePriceDesk,
+			double availableBalance) {
+		Booking booking = new Booking(ride, traveler, seats);
+		booking.setTraveler(traveler);
+		booking.setDeskontua(desk);
+		db.persist(booking);
+
+		ride.setnPlaces(ride.getnPlaces() - seats);
+		traveler.addBookedRide(booking);
+		traveler.setMoney(availableBalance - ridePriceDesk);
+		traveler.setIzoztatutakoDirua(traveler.getIzoztatutakoDirua() + ridePriceDesk);
+		db.merge(ride);
+		db.merge(traveler);
+		db.getTransaction().commit();
 	}
 
 	public List<Movement> getAllMovements(User user) {
@@ -732,11 +739,20 @@ public class DataAccess {
 		return era;
 	}
 
+<<<<<<< HEAD
 	public boolean erreklamazioaBidali(ErreklamazioaBidaliParameter parameterObject) { //Editado por Mikel
+=======
+	public boolean erreklamazioaBidali(ErreklamazioaBidaliParameter parameterObject) {
+>>>>>>> branch 'master' of https://github.com/euken13/Riders24.git
 		try {
 			db.getTransaction().begin();
 
+<<<<<<< HEAD
 			Complaint erreklamazioa = new Complaint(parameterObject.getNor(), parameterObject.getNori(), parameterObject.getGaur(), parameterObject.getBooking(), parameterObject.getTextua(), parameterObject.isAurk());
+=======
+			Complaint erreklamazioa = new Complaint(parameterObject.getNor(), parameterObject.getNori(), parameterObject.getGaur(),
+					parameterObject.getBooking(), parameterObject.getTextua(), parameterObject.isAurk());
+>>>>>>> branch 'master' of https://github.com/euken13/Riders24.git
 			db.persist(erreklamazioa);
 			db.getTransaction().commit();
 			return true;
