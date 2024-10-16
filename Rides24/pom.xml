@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>Rides24</groupId>
-  <artifactId>ridesmaven</artifactId>
+  <artifactId>Rides2024Maven</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
 <build>
@@ -49,8 +49,8 @@
 	<maven.compiler.source>1.8</maven.compiler.source>
 	<sonar.organization>lekim3fb</sonar.organization>
 	<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-	<sonar.projectKey>lekim3fb_ridesmaven</sonar.projectKey>
-	<sonar.login>eb7e0e1d0a8d946d1c2ae6f87353384254247d6e</sonar.login>
+	<sonar.projectKey>lekim3fb_rides2024maven</sonar.projectKey>
+	<sonar.login>43608ad026d2da426f63cdb89ae87ea9ebc478e3</sonar.login>
 </properties>
 
 <!-- https://mvnrepository.com/artifact/junit/junit -->
