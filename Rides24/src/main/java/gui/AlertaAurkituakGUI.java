@@ -72,7 +72,7 @@ public class AlertaAurkituakGUI extends JFrame {
 		getContentPane().add(closeButton, BorderLayout.SOUTH);
 	}
 
-	private void closeButtonActionPerformed(ActionEvent e) { //se ha cambiado.
+	private void closeButtonActionPerformed(ActionEvent e) { //se ha cambiado.,
 		this.setVisible(false);
 	}
 }
