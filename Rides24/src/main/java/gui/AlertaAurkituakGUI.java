@@ -66,13 +66,13 @@ public class AlertaAurkituakGUI extends JFrame {
 		closeButton = new JButton(ResourceBundle.getBundle("Etiquetas").getString("Close"));
 		closeButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				closeButtonActionPerformed(e); //changed
+				closeButtonActionPerformed(e); //se ha cambiado
 			}
 		});
 		getContentPane().add(closeButton, BorderLayout.SOUTH);
 	}
 
-	private void closeButtonActionPerformed(ActionEvent e) {
+	private void closeButtonActionPerformed(ActionEvent e) { //se ha cambiado
 		this.setVisible(false);
 	}
 }
