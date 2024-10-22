@@ -46,7 +46,7 @@
 <maven.compiler.source>1.8</maven.compiler.source>
 <sonar.organization>lekim3fb</sonar.organization>
 <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-<sonar.projectKey>lekim3fb_Rides2024Maven</sonar.projectKey>
+<sonar.projectKey>lekim3fb_rides2024maven</sonar.projectKey>
 <sonar.login>8576db1b24355f59c3951e4fbadf2500eb3d092d</sonar.login>
 </properties>
 <!--  https://mvnrepository.com/artifact/junit/junit  -->
